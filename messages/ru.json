@@ -1,0 +1,455 @@
+{
+  "nav": {
+    "signIn": "Войти",
+    "signUp": "Регистрация",
+    "dashboard": "Панель управления",
+    "signOut": "Выйти"
+  },
+  "landing": {
+    "badge": "Экспертная система на основе правил",
+    "title": "Найдите свой идеальный",
+    "titleHighlight": "Академический путь",
+    "subtitle": "Откройте идеальный курс или специализацию для вашего уникального профиля. Наша интеллектуальная система анализирует ваши интересы, навыки и цели для предоставления персонализированных рекомендаций.",
+    "startAssessment": "Начать оценку",
+    "learnMore": "Узнать больше",
+    "stats": {
+      "specializations": "Специализации",
+      "rules": "Экспертных правил",
+      "questions": "Вопросов"
+    },
+    "features": {
+      "title": "Почему выбирают нашу систему?",
+      "subtitle": "Созданная с упором на прозрачность и точность, наша экспертная система предоставляет рекомендации, которым вы можете доверять и понимать.",
+      "smartAnalysis": {
+        "title": "Умный анализ",
+        "description": "Наша экспертная система анализирует ваши интересы, навыки и цели, используя более 70 взвешенных правил."
+      },
+      "personalized": {
+        "title": "Персонализированные рекомендации",
+        "description": "Получите индивидуальные топ-3 рекомендации специализаций на основе вашего уникального профиля."
+      },
+      "explainable": {
+        "title": "Объяснимый ИИ",
+        "description": "Поймите точно, ПОЧЕМУ каждая специализация была рекомендована с четкими объяснениями."
+      },
+      "privacy": {
+        "title": "Конфиденциальность данных",
+        "description": "Ваши ответы обрабатываются безопасно и никогда не хранятся и не передаются третьим лицам."
+      }
+    },
+    "howItWorks": {
+      "title": "Как это работает",
+      "subtitle": "Три простых шага для открытия вашего идеального академического пути",
+      "step1": {
+        "title": "Ответьте на вопросы",
+        "description": "Пройдите быстрый опрос из 15 вопросов о ваших интересах, навыках и карьерных целях."
+      },
+      "step2": {
+        "title": "Анализ ИИ",
+        "description": "Наша экспертная система оценивает ваши ответы, используя обширную базу знаний."
+      },
+      "step3": {
+        "title": "Получите результаты",
+        "description": "Получите персонализированные топ-3 рекомендации с подробными объяснениями."
+      }
+    },
+    "cta": "Начать оценку",
+    "footer": {
+      "copyright": "© 2026 Ungarov Advisor Expert System от Ungarov Academy.",
+      "disclaimer": "Это экспертная система на основе правил, а не модель машинного обучения."
+    }
+  },
+  "auth": {
+    "register": {
+      "title": "Создать аккаунт",
+      "subtitle": "Зарегистрируйтесь, чтобы сохранить результаты оценки",
+      "name": "Полное имя",
+      "namePlaceholder": "Иван Иванов",
+      "email": "Электронная почта",
+      "emailPlaceholder": "you@example.com",
+      "password": "Пароль",
+      "confirmPassword": "Подтвердите пароль",
+      "submit": "Создать аккаунт",
+      "creating": "Создание аккаунта...",
+      "hasAccount": "Уже есть аккаунт?",
+      "signIn": "Войти",
+      "passwordStrength": "Надежность пароля",
+      "strength": {
+        "veryWeak": "Очень слабый",
+        "weak": "Слабый",
+        "fair": "Средний",
+        "good": "Хороший",
+        "strong": "Сильный"
+      }
+    },
+    "login": {
+      "title": "С возвращением",
+      "subtitle": "Войдите, чтобы получить доступ к истории оценок",
+      "email": "Электронная почта",
+      "emailPlaceholder": "you@example.com",
+      "password": "Пароль",
+      "passwordPlaceholder": "••••••••",
+      "submit": "Войти",
+      "signingIn": "Вход...",
+      "noAccount": "Нет аккаунта?",
+      "createOne": "Создать"
+    },
+    "backToHome": "Вернуться на главную"
+  },
+  "questionnaire": {
+    "title": "Оценка карьерного пути",
+    "subtitle": "Ответьте на следующие вопросы, чтобы помочь нам понять ваши интересы, навыки и цели. Это поможет нам рекомендовать лучшие специализации для вас.",
+    "step": "Шаг",
+    "of": "из",
+    "previous": "Назад",
+    "next": "Далее",
+    "getRecommendations": "Получить рекомендации",
+    "analyzing": "Анализ...",
+    "error": "Пожалуйста, ответьте на все вопросы перед продолжением.",
+    "steps": {
+      "interests": {
+        "title": "Ваши интересы",
+        "description": "Расскажите нам, какие темы и занятия вас больше всего интересуют",
+        "questions": {
+          "primary-interest": {
+            "text": "Какая из этих областей интересует вас больше всего?",
+            "options": {
+              "building-software": { "label": "Создание программного обеспечения и приложений", "description": "Создание программ для решения реальных задач" },
+              "analyzing-data": { "label": "Анализ данных и поиск закономерностей", "description": "Работа с цифрами и статистикой" },
+              "designing-interfaces": { "label": "Дизайн красивых интерфейсов", "description": "Создание визуально привлекательного и удобного дизайна" },
+              "solving-puzzles": { "label": "Решение сложных логических задач", "description": "Разбивка сложных проблем на части" },
+              "protecting-systems": { "label": "Защита систем от угроз", "description": "Безопасность и защитные стратегии" },
+              "managing-projects": { "label": "Управление проектами и командами", "description": "Лидерство и координация" }
+            }
+          },
+          "secondary-interests": {
+            "text": "Выберите ВСЕ другие области, которые вам также интересны:",
+            "options": {
+              "gaming": "Видеоигры и интерактивные развлечения",
+              "mobile-apps": "Мобильные приложения",
+              "websites": "Веб-сайты и веб-приложения",
+              "ai-ml": "Искусственный интеллект и машинное обучение",
+              "cloud-infra": "Облачная инфраструктура и серверы",
+              "robotics": "Робототехника и автоматизация",
+              "business-tech": "Бизнес и технологическая стратегия",
+              "research": "Академические исследования и теория"
+            }
+          },
+          "learning-preference": {
+            "text": "Как вы предпочитаете изучать новое?",
+            "options": {
+              "hands-on": { "label": "Практические эксперименты", "description": "Метод проб и ошибок, создание проектов" },
+              "structured-courses": { "label": "Структурированные курсы и уроки", "description": "Следование программе шаг за шагом" },
+              "reading-docs": { "label": "Чтение документации и книг", "description": "Глубокое погружение в письменные материалы" },
+              "collaboration": { "label": "Сотрудничество с другими", "description": "Обучение через обсуждение и командную работу" }
+            }
+          }
+        }
+      },
+      "skills": {
+        "title": "Ваши навыки",
+        "description": "Оцените ваши текущие способности в различных областях",
+        "questions": {
+          "programming-level": {
+            "text": "Как бы вы оценили свои навыки программирования?",
+            "labels": { "min": "Полный новичок", "max": "Продвинутый/Профессионал" }
+          },
+          "math-level": {
+            "text": "Насколько комфортно вы чувствуете себя с математикой и статистикой?",
+            "labels": { "min": "Не комфортно", "max": "Очень комфортно" }
+          },
+          "design-level": {
+            "text": "Как бы вы оценили свои визуальные/дизайнерские навыки?",
+            "labels": { "min": "Не моя сильная сторона", "max": "Очень креативный" }
+          },
+          "communication-level": {
+            "text": "Насколько сильны ваши навыки общения и презентации?",
+            "labels": { "min": "Требует улучшения", "max": "Отличный коммуникатор" }
+          },
+          "existing-skills": {
+            "text": "С какими из этих навыков у вас уже есть опыт?",
+            "options": {
+              "html-css": "HTML и CSS",
+              "javascript": "JavaScript",
+              "python": "Python",
+              "java-csharp": "Java или C#",
+              "sql": "SQL / Базы данных",
+              "design-tools": "Инструменты дизайна (Figma, Photoshop)",
+              "data-analysis": "Анализ данных (Excel, R)",
+              "none": "Ничего из вышеперечисленного"
+            }
+          }
+        }
+      },
+      "personality": {
+        "title": "Ваша личность",
+        "description": "Помогите нам понять ваш стиль работы и предпочтения",
+        "questions": {
+          "work-style": {
+            "text": "Как вы предпочитаете работать?",
+            "options": {
+              "solo": { "label": "Самостоятельно, фокусируясь на своих задачах", "description": "Я лучше всего работаю один" },
+              "small-team": { "label": "В небольшой, сплоченной команде", "description": "Сотрудничество с несколькими доверенными коллегами" },
+              "large-team": { "label": "В большой, разнообразной команде", "description": "Часть большой организации" },
+              "mixed": { "label": "Смесь самостоятельной и командной работы", "description": "Гибкость в зависимости от задачи" }
+            }
+          },
+          "problem-approach": {
+            "text": "Сталкиваясь со сложной проблемой, вы обычно:",
+            "options": {
+              "analytical": { "label": "Разбиваете ее на логические шаги", "description": "Систематический, методичный подход" },
+              "creative": { "label": "Ищете креативные, нестандартные решения", "description": "Мышление вне рамок" },
+              "research": { "label": "Изучаете, как другие решили это", "description": "Обучение на существующих решениях" },
+              "experiment": { "label": "Сразу начинаете экспериментировать", "description": "Обучение на практике, быстрая итерация" }
+            }
+          },
+          "detail-vs-bigpicture": {
+            "text": "Что описывает вас лучше?",
+            "options": {
+              "detail-oriented": { "label": "Ориентированный на детали перфекционист", "description": "Я фокусируюсь на правильности каждой детали" },
+              "big-picture": { "label": "Визионер общей картины", "description": "Я фокусируюсь на общей стратегии и видении" },
+              "balanced": { "label": "Сбалансированный - зависит от ситуации", "description": "Могу переключаться между обоими режимами" }
+            }
+          },
+          "risk-tolerance": {
+            "text": "Как вы относитесь к риску и пробам нового?",
+            "labels": { "min": "Предпочитаю стабильность", "max": "Люблю экспериментировать" }
+          }
+        }
+      },
+      "career": {
+        "title": "Карьерные цели",
+        "description": "Поделитесь вашими профессиональными стремлениями и предпочтениями",
+        "questions": {
+          "work-environment": {
+            "text": "Какой тип рабочей среды привлекает вас больше всего?",
+            "options": {
+              "startup": { "label": "Быстрорастущий стартап", "description": "Высокий риск, высокая награда, много ролей" },
+              "corporate": { "label": "Устоявшаяся корпорация", "description": "Стабильность, четкая карьера, ресурсы" },
+              "freelance": { "label": "Фриланс / Самозанятость", "description": "Независимость, разнообразие проектов" },
+              "research": { "label": "Исследовательский институт / Академия", "description": "Фокус на инновациях и знаниях" },
+              "government": { "label": "Государство / НКО", "description": "Общественная служба, социальное влияние" }
+            }
+          },
+          "career-priority": {
+            "text": "Что для вас наиболее важно в карьере?",
+            "options": {
+              "salary": "Высокая зарплата и финансовая безопасность",
+              "impact": "Положительное влияние на общество",
+              "creativity": "Творческая свобода и самовыражение",
+              "growth": "Постоянное обучение и рост",
+              "balance": "Баланс между работой и личной жизнью",
+              "leadership": "Лидерство и влияние"
+            }
+          },
+          "five-year-vision": {
+            "text": "Где вы видите себя через 5 лет?",
+            "options": {
+              "technical-expert": { "label": "Глубокий технический эксперт", "description": "Старший инженер, архитектор или специалист" },
+              "team-lead": { "label": "Руководитель команды профессионалов", "description": "Менеджер, тимлид или директор" },
+              "entrepreneur": { "label": "Управление собственным бизнесом", "description": "Основатель, CEO или независимый консультант" },
+              "researcher": { "label": "Вклад в передовые исследования", "description": "PhD, научный сотрудник или академик" },
+              "versatile": { "label": "Универсальный профи с разнообразным опытом", "description": "Кросс-функциональная роль" }
+            }
+          },
+          "industry-preference": {
+            "text": "Какие индустрии вам наиболее интересны? (Выберите все подходящие)",
+            "options": {
+              "tech": "Технологии и ПО",
+              "finance": "Финансы и банкинг",
+              "healthcare": "Здравоохранение и науки о жизни",
+              "gaming": "Игры и развлечения",
+              "education": "Образование и EdTech",
+              "ecommerce": "Электронная коммерция и ритейл",
+              "security": "Безопасность и оборона",
+              "any": "Открыт для любой индустрии"
+            }
+          }
+        }
+      }
+    }
+  },
+  "results": {
+    "badge": "Ваши персональные результаты",
+    "title": "Топ рекомендуемых специализаций",
+    "subtitle": "На основе ваших интересов, навыков, личности и карьерных целей, вот специализации, которые лучше всего соответствуют вашему профилю.",
+    "analysisNote": "Наша экспертная система проанализировала ваши ответы, используя {count} взвешенных правил для генерации этих рекомендаций. Нажмите на каждую карточку, чтобы увидеть подробные объяснения.",
+    "retakeAssessment": "Пройти заново",
+    "backToHome": "На главную",
+    "notSatisfied": "Не удовлетворены результатами? Вы можете пройти оценку заново или изучить другие варианты.",
+    "generatedAt": "Сгенерировано",
+    "disclaimer": "Эта рекомендация основана на анализе экспертной системы на основе правил. Ваше окончательное решение также должно учитывать другие факторы, такие как личные обстоятельства, тенденции рынка и профессиональные советы.",
+    "error": {
+      "title": "Упс!",
+      "noResults": "Результаты не найдены. Пожалуйста, сначала пройдите анкетирование.",
+      "takeQuestionnaire": "Пройти анкетирование"
+    },
+    "loading": "Загрузка ваших рекомендаций...",
+    "card": {
+      "match": "Совпадение",
+      "confidence": {
+        "high": "Высокая уверенность",
+        "medium": "Средняя уверенность",
+        "low": "Низкая уверенность"
+      },
+      "viewDetails": "Подробнее",
+      "hideDetails": "Скрыть",
+      "whyRecommended": "Почему это было рекомендовано",
+      "keyFactors": "Ключевые факторы",
+      "yourStrengths": "Ваши сильные стороны",
+      "considerations": "Рекомендации",
+      "careerPaths": "Карьерные пути",
+      "keySkills": "Ключевые навыки"
+    }
+  },
+  "dashboard": {
+    "welcome": "С возвращением",
+    "subtitle": "Просмотрите историю оценок и пройдите новые оценки карьерного пути.",
+    "stats": {
+      "totalAssessments": "Всего оценок",
+      "topRecommendation": "Топ рекомендация",
+      "yourAccount": "Ваш аккаунт"
+    },
+    "newAssessment": {
+      "title": "Готовы к новой оценке?",
+      "subtitle": "Пройдите наш опросник, чтобы открыть больше специализаций, соответствующих вашему профилю.",
+      "button": "Новая оценка"
+    },
+    "history": {
+      "title": "История ваших оценок",
+      "empty": {
+        "title": "Пока нет оценок",
+        "subtitle": "Пройдите первую оценку, чтобы открыть вашу идеальную специализацию!",
+        "button": "Начать оценку"
+      },
+      "topMatch": "Лучшее совпадение",
+      "viewDetails": "Подробнее"
+    }
+  },
+  "data": {
+    "specializations": {
+      "computer-science": {
+        "name": "Компьютерные науки (CS)",
+        "description": "Изучение вычислений, алгоритмов и программирования. Фокус на теоретических основах и практической разработке ПО."
+      },
+      "data-science": {
+        "name": "Наука о данных (Data Science)",
+        "description": "Извлечение инсайтов из данных с помощью статистики, машинного обучения и визуализации."
+      },
+      "cybersecurity": {
+        "name": "Кибербезопасность",
+        "description": "Защита систем, сетей и данных от цифровых атак. Этичный хакинг и анализ рисков."
+      },
+      "web-development": {
+        "name": "Веб-разработка",
+        "description": "Создание сайтов и веб-приложений. Фронтенд, бэкенд и фулл-стэк разработка."
+      },
+      "mobile-development": {
+        "name": "Мобильная разработка",
+        "description": "Создание приложений для смартфонов и планшетов (iOS, Android)."
+      },
+      "ui-ux-design": {
+        "name": "UI/UX Дизайн",
+        "description": "Проектирование пользовательских интерфейсов и опыта. Юзабилити и визуальный дизайн."
+      },
+      "artificial-intelligence": {
+        "name": "Искусственный интеллект (AI)",
+        "description": "Создание интеллектуальных систем, способных учиться и принимать решения."
+      },
+      "game-development": {
+        "name": "Разработка игр (GameDev)",
+        "description": "Создание видеоигр. Сочетает программирование, дизайн и сторителлинг."
+      },
+      "cloud-computing": {
+        "name": "Облачные технологии и DevOps",
+        "description": "Управление облачной инфраструктурой и автоматизация поставки ПО."
+      },
+      "business-it": {
+        "name": "Бизнес и ИТ-менеджмент",
+        "description": "Связь технологий и бизнес-стратегии. Управление проектами и цифровая трансформацию."
+      }
+    },
+    "rules": {
+      "cs-primary-building": "Your primary interest in building software directly aligns with Computer Science.",
+      "cs-primary-puzzles": "Your love for solving complex puzzles is a core trait of successful Computer Scientists.",
+      "cs-high-programming": "Your strong programming skills provide an excellent foundation for Computer Science.",
+      "cs-analytical-approach": "Your analytical, systematic approach matches the methodical nature of CS problem-solving.",
+      "cs-technical-expert-goal": "Computer Science offers deep specialization paths to become a technical expert.",
+      "cs-java-csharp-skills": "Your experience with Java or C# is valuable for traditional CS applications.",
+      "cs-research-interest": "Your interest in research aligns with the theoretical aspects of Computer Science.",
+      
+      "ds-primary-analyzing": "Your passion for analyzing data is the defining characteristic of Data Scientists.",
+      "ds-high-math": "Your strong mathematics skills are essential for statistical analysis in Data Science.",
+      "ds-python-skills": "Your Python experience is highly relevant as it is the primary language for Data Science.",
+      "ds-data-analysis-skills": "Your existing data analysis experience gives you a head start in Data Science.",
+      "ds-finance-industry": "The finance industry heavily relies on Data Science for quantitative analysis.",
+      "ds-detail-oriented": "Your attention to detail is crucial for accurate data analysis.",
+      "ds-sql-skills": "Your SQL knowledge is essential for working with databases in Data Science.",
+
+      "sec-primary-protecting": "Your drive to protect systems is the core motivation for Cybersecurity professionals.",
+      "sec-security-industry": "Your interest in the security industry directly aligns with Cybersecurity.",
+      "sec-analytical-approach": "Your analytical approach is essential for threat analysis and security audits.",
+      "sec-detail-oriented": "Attention to detail is critical in Security - one oversight can be catastrophic.",
+      "sec-government-interest": "Government organizations have high demand for Cybersecurity professionals.",
+      "sec-puzzles-interest": "Security involves solving complex puzzles like an attacker would.",
+
+      "web-websites-interest": "Your interest in websites directly aligns with Web Development.",
+      "web-html-css-skills": "Your HTML/CSS experience is the foundation of Web Development.",
+      "web-javascript-skills": "JavaScript is the essential language for modern Web Development.",
+      "web-hands-on-learning": "Web Development is highly practical and rewards hands-on learning.",
+      "web-freelance-goal": "Web Development is one of the most accessible paths to freelancing.",
+      "web-building-interest": "Web Development lets you build complete, working applications.",
+      "web-ecommerce-industry": "E-commerce relies heavily on Web Development for online storefronts.",
+
+      "mobile-apps-interest": "Your direct interest in mobile apps makes Mobile Development a natural fit.",
+      "mobile-javascript-skills": "Your JavaScript skills can be applied to React Native mobile development.",
+      "mobile-creative-approach": "Mobile apps require creative solutions for limited screen space.",
+      "mobile-startup-goal": "Many startups focus on mobile-first products.",
+      "mobile-entrepreneur-vision": "Mobile apps are a popular path for tech entrepreneurs.",
+
+      "ux-primary-designing": "Your passion for designing interfaces is the core of UI/UX Design.",
+      "ux-high-design-skills": "Your strong visual design skills are essential for UI/UX Design.",
+      "ux-design-tools": "Your experience with design tools like Figma gives you a head start.",
+      "ux-creative-approach": "UI/UX Design rewards creative, unconventional thinking.",
+      "ux-creativity-priority": "UI/UX Design offers exceptional creative freedom.",
+      "ux-communication-skills": "UX designers need strong communication to advocate for users.",
+      "ux-collaboration-learning": "UX Design involves extensive collaboration with stakeholders and users.",
+
+      "ai-ml-interest": "Your direct interest in AI/ML is the foundation for this specialization.",
+      "ai-high-math": "Advanced mathematics is essential for understanding AI algorithms.",
+      "ai-python-skills": "Python is the primary language for AI/ML development.",
+      "ai-research-interest": "AI is a research-intensive field with constant innovation.",
+      "ai-researcher-vision": "AI offers excellent paths for research careers.",
+      "ai-research-environment": "AI roles are common in research institutions and labs.",
+      "ai-analyzing-interest": "AI heavily involves analyzing patterns in data.",
+
+      "game-gaming-interest": "Your passion for gaming is the foundation for Game Development.",
+      "game-java-csharp": "C# is the primary language for Unity game development.",
+      "game-creative-approach": "Game Development combines technical skills with creative vision.",
+      "game-design-skills": "Visual design skills enhance game aesthetics.",
+      "game-industry-preference": "Direct alignment with the gaming industry.",
+      "game-hands-on": "Game Development is highly practical and project-based.",
+
+      "cloud-infra-interest": "Your interest in cloud infrastructure directly aligns with this field.",
+      "cloud-automation-interest": "Your automation interest applies to infrastructure automation in DevOps.",
+      "cloud-analytical-approach": "Cloud architecture requires systematic, analytical thinking.",
+      "cloud-corporate-goal": "Large corporations have significant cloud infrastructure needs.",
+      "cloud-high-salary-priority": "Cloud/DevOps engineers command high salaries due to demand.",
+      "cloud-python-skills": "Python is widely used for cloud automation scripts.",
+
+      "biz-primary-managing": "Your interest in management is the core of Business & IT Management.",
+      "biz-business-tech-interest": "Your interest in business technology strategy aligns perfectly.",
+      "biz-high-communication": "Strong communication is essential for IT management roles.",
+      "biz-team-lead-vision": "Business & IT Management is the direct path to leadership roles.",
+      "biz-leadership-priority": "This specialization focuses on developing leadership capabilities.",
+      "biz-large-team-preference": "IT Management often involves coordinating large, diverse teams.",
+      "biz-big-picture": "Strategic, big-picture thinking is crucial for IT management.",
+      "biz-corporate-environment": "Corporate environments offer structured paths for IT management careers."
+    }
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Произошла ошибка",
+    "tryAgain": "Попробовать снова"
+  }
+}

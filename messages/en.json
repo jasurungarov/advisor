@@ -1,0 +1,455 @@
+{
+  "nav": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "dashboard": "Dashboard",
+    "signOut": "Sign Out"
+  },
+  "landing": {
+    "badge": "Rule-Based Expert System",
+    "title": "Find Your Perfect",
+    "titleHighlight": "Academic Path",
+    "subtitle": "Discover the ideal course or specialization for your unique profile. Our intelligent system analyzes your interests, skills, and goals to provide personalized recommendations.",
+    "startAssessment": "Start Assessment",
+    "learnMore": "Learn More",
+    "stats": {
+      "specializations": "Specializations",
+      "rules": "Expert Rules",
+      "questions": "Questions"
+    },
+    "features": {
+      "title": "Why Choose Our System?",
+      "subtitle": "Built with transparency and accuracy in mind, our expert system provides recommendations you can trust and understand.",
+      "smartAnalysis": {
+        "title": "Smart Analysis",
+        "description": "Our expert system analyzes your interests, skills, and goals using 70+ weighted rules."
+      },
+      "personalized": {
+        "title": "Personalized Recommendations",
+        "description": "Get tailored top 3 specialization recommendations based on your unique profile."
+      },
+      "explainable": {
+        "title": "Explainable AI",
+        "description": "Understand exactly WHY each specialization was recommended with clear explanations."
+      },
+      "privacy": {
+        "title": "Data Privacy",
+        "description": "Your responses are processed securely and never stored or shared with third parties."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "Three simple steps to discover your ideal academic path",
+      "step1": {
+        "title": "Answer Questions",
+        "description": "Complete a quick 15-question survey about your interests, skills, and career goals."
+      },
+      "step2": {
+        "title": "AI Analysis",
+        "description": "Our expert system evaluates your answers using a comprehensive knowledge base."
+      },
+      "step3": {
+        "title": "Get Results",
+        "description": "Receive your personalized top 3 recommendations with detailed explanations."
+      }
+    },
+    "cta": "Start Your Assessment",
+    "footer": {
+      "copyright": "© 2026 Ungarov Advisor Expert System by Ungarov Academy.",
+      "disclaimer": "This is a rule-based expert system, not a machine learning model."
+    }
+  },
+  "auth": {
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Sign up to save your assessment results",
+      "name": "Full Name",
+      "namePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Create Account",
+      "creating": "Creating account...",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "passwordStrength": "Password strength",
+      "strength": {
+        "veryWeak": "Very Weak",
+        "weak": "Weak",
+        "fair": "Fair",
+        "good": "Good",
+        "strong": "Strong"
+      }
+    },
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to access your assessment history",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "••••••••",
+      "submit": "Sign In",
+      "signingIn": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "createOne": "Create one"
+    },
+    "backToHome": "Back to Home"
+  },
+  "questionnaire": {
+    "title": "Career Path Assessment",
+    "subtitle": "Answer the following questions to help us understand your interests, skills, and goals. This will help us recommend the best specializations for you.",
+    "step": "Step",
+    "of": "of",
+    "previous": "Previous",
+    "next": "Next",
+    "getRecommendations": "Get Recommendations",
+    "analyzing": "Analyzing...",
+    "error": "Please answer all questions before continuing.",
+    "steps": {
+      "interests": {
+        "title": "Your Interests",
+        "description": "Tell us what topics and activities excite you the most",
+        "questions": {
+          "primary-interest": {
+            "text": "Which of these areas interests you the most?",
+            "options": {
+              "building-software": { "label": "Building software and applications", "description": "Creating programs that solve real problems" },
+              "analyzing-data": { "label": "Analyzing data and finding patterns", "description": "Working with numbers and statistics" },
+              "designing-interfaces": { "label": "Designing beautiful interfaces", "description": "Creating visually appealing and usable designs" },
+              "solving-puzzles": { "label": "Solving complex logical puzzles", "description": "Breaking down difficult problems" },
+              "protecting-systems": { "label": "Protecting systems from threats", "description": "Security and defensive strategies" },
+              "managing-projects": { "label": "Managing projects and teams", "description": "Leadership and coordination" }
+            }
+          },
+          "secondary-interests": {
+            "text": "Select ALL other areas that also interest you:",
+            "options": {
+              "gaming": "Video games and interactive entertainment",
+              "mobile-apps": "Mobile applications",
+              "websites": "Websites and web applications",
+              "ai-ml": "Artificial intelligence and machine learning",
+              "cloud-infra": "Cloud infrastructure and servers",
+              "robotics": "Robotics and automation",
+              "business-tech": "Business and technology strategy",
+              "research": "Academic research and theory"
+            }
+          },
+          "learning-preference": {
+            "text": "How do you prefer to learn new things?",
+            "options": {
+              "hands-on": { "label": "Hands-on experimentation", "description": "Trial and error, building projects" },
+              "structured-courses": { "label": "Structured courses and tutorials", "description": "Following a curriculum step by step" },
+              "reading-docs": { "label": "Reading documentation and books", "description": "Deep diving into written materials" },
+              "collaboration": { "label": "Collaborating with others", "description": "Learning through discussion and teamwork" }
+            }
+          }
+        }
+      },
+      "skills": {
+        "title": "Your Skills",
+        "description": "Rate your current abilities in various areas",
+        "questions": {
+          "programming-level": {
+            "text": "How would you rate your programming skills?",
+            "labels": { "min": "Complete beginner", "max": "Advanced/Professional" }
+          },
+          "math-level": {
+            "text": "How comfortable are you with mathematics and statistics?",
+            "labels": { "min": "Not comfortable", "max": "Very comfortable" }
+          },
+          "design-level": {
+            "text": "How would you rate your visual/design skills?",
+            "labels": { "min": "Not my strength", "max": "Very creative" }
+          },
+          "communication-level": {
+            "text": "How strong are your communication and presentation skills?",
+            "labels": { "min": "Needs improvement", "max": "Excellent communicator" }
+          },
+          "existing-skills": {
+            "text": "Which of these skills do you already have some experience with?",
+            "options": {
+              "html-css": "HTML & CSS",
+              "javascript": "JavaScript",
+              "python": "Python",
+              "java-csharp": "Java or C#",
+              "sql": "SQL / Databases",
+              "design-tools": "Design tools (Figma, Photoshop)",
+              "data-analysis": "Data analysis (Excel, R)",
+              "none": "None of the above"
+            }
+          }
+        }
+      },
+      "personality": {
+        "title": "Your Personality",
+        "description": "Help us understand your work style and preferences",
+        "questions": {
+          "work-style": {
+            "text": "How do you prefer to work?",
+            "options": {
+              "solo": { "label": "Independently, focused on my own tasks", "description": "I do my best work alone" },
+              "small-team": { "label": "In a small, close-knit team", "description": "Collaborating with a few trusted colleagues" },
+              "large-team": { "label": "In a large, diverse team", "description": "Part of a bigger organization" },
+              "mixed": { "label": "A mix of solo and team work", "description": "Flexibility depending on the task" }
+            }
+          },
+          "problem-approach": {
+            "text": "When facing a complex problem, you typically:",
+            "options": {
+              "analytical": { "label": "Break it down into logical steps", "description": "Systematic, methodical approach" },
+              "creative": { "label": "Look for creative, unconventional solutions", "description": "Thinking outside the box" },
+              "research": { "label": "Research how others have solved it", "description": "Learning from existing solutions" },
+              "experiment": { "label": "Start experimenting immediately", "description": "Learn by doing, iterate quickly" }
+            }
+          },
+          "detail-vs-bigpicture": {
+            "text": "Which describes you better?",
+            "options": {
+              "detail-oriented": { "label": "Detail-oriented perfectionist", "description": "I focus on getting every detail right" },
+              "big-picture": { "label": "Big-picture visionary", "description": "I focus on the overall strategy and vision" },
+              "balanced": { "label": "Balanced - depends on the situation", "description": "I can switch between both modes" }
+            }
+          },
+          "risk-tolerance": {
+            "text": "How do you feel about taking risks and trying new things?",
+            "labels": { "min": "Prefer stability and proven methods", "max": "Love experimenting with new ideas" }
+          }
+        }
+      },
+      "career": {
+        "title": "Career Goals",
+        "description": "Share your professional aspirations and preferences",
+        "questions": {
+          "work-environment": {
+            "text": "What type of work environment appeals to you most?",
+            "options": {
+              "startup": { "label": "Fast-paced startup", "description": "High risk, high reward, wearing many hats" },
+              "corporate": { "label": "Established corporation", "description": "Stability, clear career paths, resources" },
+              "freelance": { "label": "Freelance / Self-employed", "description": "Independence, variety of projects" },
+              "research": { "label": "Research institution / Academia", "description": "Focus on innovation and knowledge" },
+              "government": { "label": "Government / Non-profit", "description": "Public service, social impact" }
+            }
+          },
+          "career-priority": {
+            "text": "What is most important to you in a career?",
+            "options": {
+              "salary": "High salary and financial security",
+              "impact": "Making a positive impact on society",
+              "creativity": "Creative freedom and expression",
+              "growth": "Continuous learning and growth",
+              "balance": "Work-life balance",
+              "leadership": "Leadership and influence"
+            }
+          },
+          "five-year-vision": {
+            "text": "Where do you see yourself in 5 years?",
+            "options": {
+              "technical-expert": { "label": "Deep technical expert in my field", "description": "Senior engineer, architect, or specialist" },
+              "team-lead": { "label": "Leading a team of professionals", "description": "Manager, team lead, or director" },
+              "entrepreneur": { "label": "Running my own business or startup", "description": "Founder, CEO, or independent consultant" },
+              "researcher": { "label": "Contributing to cutting-edge research", "description": "PhD, research scientist, or academic" },
+              "versatile": { "label": "Versatile professional with diverse experience", "description": "Cross-functional role spanning multiple areas" }
+            }
+          },
+          "industry-preference": {
+            "text": "Which industries interest you the most? (Select all that apply)",
+            "options": {
+              "tech": "Technology & Software",
+              "finance": "Finance & Banking",
+              "healthcare": "Healthcare & Life Sciences",
+              "gaming": "Gaming & Entertainment",
+              "education": "Education & EdTech",
+              "ecommerce": "E-commerce & Retail",
+              "security": "Security & Defense",
+              "any": "Open to any industry"
+            }
+          }
+        }
+      }
+    }
+  },
+  "results": {
+    "badge": "Your Personalized Results",
+    "title": "Top Recommended Specializations",
+    "subtitle": "Based on your interests, skills, personality, and career goals, here are the specializations that best match your profile.",
+    "analysisNote": "Our expert system analyzed your responses using {count} weighted rules to generate these recommendations. Click on each card to see detailed explanations.",
+    "retakeAssessment": "Retake Assessment",
+    "backToHome": "Back to Home",
+    "notSatisfied": "Not satisfied with the results? You can retake the assessment or explore more options.",
+    "generatedAt": "Generated at",
+    "disclaimer": "This recommendation is based on a rule-based expert system analysis. Your final decision should also consider other factors like personal circumstances, market trends, and professional advice.",
+    "error": {
+      "title": "Oops!",
+      "noResults": "No results found. Please complete the questionnaire first.",
+      "takeQuestionnaire": "Take the Questionnaire"
+    },
+    "loading": "Loading your recommendations...",
+    "card": {
+      "match": "Match",
+      "confidence": {
+        "high": "High Confidence",
+        "medium": "Medium Confidence",
+        "low": "Low Confidence"
+      },
+      "viewDetails": "View Details",
+      "hideDetails": "Hide Details",
+      "whyRecommended": "Why This Was Recommended",
+      "keyFactors": "Key Factors",
+      "yourStrengths": "Your Strengths",
+      "considerations": "Considerations",
+      "careerPaths": "Career Paths",
+      "keySkills": "Key Skills"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "subtitle": "View your assessment history and take new career path assessments.",
+    "stats": {
+      "totalAssessments": "Total Assessments",
+      "topRecommendation": "Top Recommendation",
+      "yourAccount": "Your Account"
+    },
+    "newAssessment": {
+      "title": "Ready for a new assessment?",
+      "subtitle": "Take our questionnaire to discover more specializations that match your profile.",
+      "button": "New Assessment"
+    },
+    "history": {
+      "title": "Your Assessment History",
+      "empty": {
+        "title": "No assessments yet",
+        "subtitle": "Take your first assessment to discover your ideal specialization!",
+        "button": "Start Assessment"
+      },
+      "topMatch": "Top Match",
+      "viewDetails": "View Details"
+    }
+  },
+  "data": {
+    "specializations": {
+      "computer-science": {
+        "name": "Computer Science",
+        "description": "Study of computation, algorithms, and programming. Focuses on theoretical foundations and practical software development."
+      },
+      "data-science": {
+        "name": "Data Science & Analytics",
+        "description": "Extracting insights from data using statistics, machine learning, and visualization. Combines math, programming, and domain expertise."
+      },
+      "cybersecurity": {
+        "name": "Cybersecurity",
+        "description": "Protecting systems, networks, and data from digital attacks. Involves ethical hacking, security analysis, and risk management."
+      },
+      "web-development": {
+        "name": "Web Development",
+        "description": "Building websites and web applications. Covers frontend interfaces, backend systems, and full-stack development."
+      },
+      "mobile-development": {
+        "name": "Mobile App Development",
+        "description": "Creating applications for smartphones and tablets. Includes iOS, Android, and cross-platform development."
+      },
+      "ui-ux-design": {
+        "name": "UI/UX Design",
+        "description": "Designing user interfaces and experiences. Focuses on usability, visual design, and user research."
+      },
+      "artificial-intelligence": {
+        "name": "Artificial Intelligence",
+        "description": "Building intelligent systems that can learn, reason, and make decisions. Includes deep learning, NLP, and computer vision."
+      },
+      "game-development": {
+        "name": "Game Development",
+        "description": "Creating video games for various platforms. Combines programming, art, design, and storytelling."
+      },
+      "cloud-computing": {
+        "name": "Cloud Computing & DevOps",
+        "description": "Managing cloud infrastructure and automating software delivery. Focus on scalability, reliability, and automation."
+      },
+      "business-it": {
+        "name": "Business & IT Management",
+        "description": "Bridging technology and business strategy. Focus on project management, IT consulting, and digital transformation."
+      }
+    },
+    "rules": {
+      "cs-primary-building": "Your primary interest in building software directly aligns with Computer Science.",
+      "cs-primary-puzzles": "Your love for solving complex puzzles is a core trait of successful Computer Scientists.",
+      "cs-high-programming": "Your strong programming skills provide an excellent foundation for Computer Science.",
+      "cs-analytical-approach": "Your analytical, systematic approach matches the methodical nature of CS problem-solving.",
+      "cs-technical-expert-goal": "Computer Science offers deep specialization paths to become a technical expert.",
+      "cs-java-csharp-skills": "Your experience with Java or C# is valuable for traditional CS applications.",
+      "cs-research-interest": "Your interest in research aligns with the theoretical aspects of Computer Science.",
+      
+      "ds-primary-analyzing": "Your passion for analyzing data is the defining characteristic of Data Scientists.",
+      "ds-high-math": "Your strong mathematics skills are essential for statistical analysis in Data Science.",
+      "ds-python-skills": "Your Python experience is highly relevant as it is the primary language for Data Science.",
+      "ds-data-analysis-skills": "Your existing data analysis experience gives you a head start in Data Science.",
+      "ds-finance-industry": "The finance industry heavily relies on Data Science for quantitative analysis.",
+      "ds-detail-oriented": "Your attention to detail is crucial for accurate data analysis.",
+      "ds-sql-skills": "Your SQL knowledge is essential for working with databases in Data Science.",
+
+      "sec-primary-protecting": "Your drive to protect systems is the core motivation for Cybersecurity professionals.",
+      "sec-security-industry": "Your interest in the security industry directly aligns with Cybersecurity.",
+      "sec-analytical-approach": "Your analytical approach is essential for threat analysis and security audits.",
+      "sec-detail-oriented": "Attention to detail is critical in Security - one oversight can be catastrophic.",
+      "sec-government-interest": "Government organizations have high demand for Cybersecurity professionals.",
+      "sec-puzzles-interest": "Security involves solving complex puzzles like an attacker would.",
+
+      "web-websites-interest": "Your interest in websites directly aligns with Web Development.",
+      "web-html-css-skills": "Your HTML/CSS experience is the foundation of Web Development.",
+      "web-javascript-skills": "JavaScript is the essential language for modern Web Development.",
+      "web-hands-on-learning": "Web Development is highly practical and rewards hands-on learning.",
+      "web-freelance-goal": "Web Development is one of the most accessible paths to freelancing.",
+      "web-building-interest": "Web Development lets you build complete, working applications.",
+      "web-ecommerce-industry": "E-commerce relies heavily on Web Development for online storefronts.",
+
+      "mobile-apps-interest": "Your direct interest in mobile apps makes Mobile Development a natural fit.",
+      "mobile-javascript-skills": "Your JavaScript skills can be applied to React Native mobile development.",
+      "mobile-creative-approach": "Mobile apps require creative solutions for limited screen space.",
+      "mobile-startup-goal": "Many startups focus on mobile-first products.",
+      "mobile-entrepreneur-vision": "Mobile apps are a popular path for tech entrepreneurs.",
+
+      "ux-primary-designing": "Your passion for designing interfaces is the core of UI/UX Design.",
+      "ux-high-design-skills": "Your strong visual design skills are essential for UI/UX Design.",
+      "ux-design-tools": "Your experience with design tools like Figma gives you a head start.",
+      "ux-creative-approach": "UI/UX Design rewards creative, unconventional thinking.",
+      "ux-creativity-priority": "UI/UX Design offers exceptional creative freedom.",
+      "ux-communication-skills": "UX designers need strong communication to advocate for users.",
+      "ux-collaboration-learning": "UX Design involves extensive collaboration with stakeholders and users.",
+
+      "ai-ml-interest": "Your direct interest in AI/ML is the foundation for this specialization.",
+      "ai-high-math": "Advanced mathematics is essential for understanding AI algorithms.",
+      "ai-python-skills": "Python is the primary language for AI/ML development.",
+      "ai-research-interest": "AI is a research-intensive field with constant innovation.",
+      "ai-researcher-vision": "AI offers excellent paths for research careers.",
+      "ai-research-environment": "AI roles are common in research institutions and labs.",
+      "ai-analyzing-interest": "AI heavily involves analyzing patterns in data.",
+
+      "game-gaming-interest": "Your passion for gaming is the foundation for Game Development.",
+      "game-java-csharp": "C# is the primary language for Unity game development.",
+      "game-creative-approach": "Game Development combines technical skills with creative vision.",
+      "game-design-skills": "Visual design skills enhance game aesthetics.",
+      "game-industry-preference": "Direct alignment with the gaming industry.",
+      "game-hands-on": "Game Development is highly practical and project-based.",
+
+      "cloud-infra-interest": "Your interest in cloud infrastructure directly aligns with this field.",
+      "cloud-automation-interest": "Your automation interest applies to infrastructure automation in DevOps.",
+      "cloud-analytical-approach": "Cloud architecture requires systematic, analytical thinking.",
+      "cloud-corporate-goal": "Large corporations have significant cloud infrastructure needs.",
+      "cloud-high-salary-priority": "Cloud/DevOps engineers command high salaries due to demand.",
+      "cloud-python-skills": "Python is widely used for cloud automation scripts.",
+
+      "biz-primary-managing": "Your interest in management is the core of Business & IT Management.",
+      "biz-business-tech-interest": "Your interest in business technology strategy aligns perfectly.",
+      "biz-high-communication": "Strong communication is essential for IT management roles.",
+      "biz-team-lead-vision": "Business & IT Management is the direct path to leadership roles.",
+      "biz-leadership-priority": "This specialization focuses on developing leadership capabilities.",
+      "biz-large-team-preference": "IT Management often involves coordinating large, diverse teams.",
+      "biz-big-picture": "Strategic, big-picture thinking is crucial for IT management.",
+      "biz-corporate-environment": "Corporate environments offer structured paths for IT management careers."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "tryAgain": "Try Again"
+  }
+}

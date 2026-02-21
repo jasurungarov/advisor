@@ -1,0 +1,455 @@
+{
+  "nav": {
+    "signIn": "Кирүү",
+    "signUp": "Катталуу",
+    "dashboard": "Башкаруу панели",
+    "signOut": "Чыгуу"
+  },
+  "landing": {
+    "badge": "Эрежелерге негизделген эксперттик система",
+    "title": "Сиздин идеалдуу",
+    "titleHighlight": "Академиялык жолуңузду табыңыз",
+    "subtitle": "Сиздин уникалдуу профилиңизге ылайыктуу идеалдуу курсту же адистикти ачыңыз. Биздин акылдуу система сиздин кызыкчылыктарыңызды, көндүмдөрүңүздү жана максаттарыңызды талдап, жекелештирилген сунуштарды берет.",
+    "startAssessment": "Баалоону баштоо",
+    "learnMore": "Көбүрөөк билүү",
+    "stats": {
+      "specializations": "Адистиктер",
+      "rules": "Эксперттик эрежелер",
+      "questions": "Суроолор"
+    },
+    "features": {
+      "title": "Эмне үчүн биздин системаны тандайсыз?",
+      "subtitle": "Ачыктык жана тактык менен курулган, биздин эксперттик система сиз ишене турган жана түшүнө турган сунуштарды берет.",
+      "smartAnalysis": {
+        "title": "Акылдуу талдоо",
+        "description": "Биздин эксперттик система 70+ салмактуу эрежелерди колдонуп, сиздин кызыкчылыктарыңызды, көндүмдөрүңүздү жана максаттарыңызды талдайт."
+      },
+      "personalized": {
+        "title": "Жекелештирилген сунуштар",
+        "description": "Сиздин уникалдуу профилиңизге негизделген топ-3 адистик сунуштарын алыңыз."
+      },
+      "explainable": {
+        "title": "Түшүндүрүлүүчү ЖИ",
+        "description": "Ар бир адистик ЭМНЕ ҮЧҮН сунушталганын так түшүндүрмөлөр менен түшүнүңүз."
+      },
+      "privacy": {
+        "title": "Маалымат коопсуздугу",
+        "description": "Сиздин жоопторуңуз коопсуз иштетилет жана эч качан сакталбайт же үчүнчү тарапка өткөрүлбөйт."
+      }
+    },
+    "howItWorks": {
+      "title": "Бул кантип иштейт",
+      "subtitle": "Сиздин идеалдуу академиялык жолуңузду ачуу үчүн үч жөнөкөй кадам",
+      "step1": {
+        "title": "Суроолорго жооп бериңиз",
+        "description": "Сиздин кызыкчылыктарыңыз, көндүмдөрүңүз жана карьера максаттарыңыз жөнүндө 15 суроолук тез сурамжылоону толтуруңуз."
+      },
+      "step2": {
+        "title": "ЖИ талдоосу",
+        "description": "Биздин эксперттик система билим базасын колдонуп, жоопторуңузду баалайт."
+      },
+      "step3": {
+        "title": "Жыйынтыктарды алыңыз",
+        "description": "Толук түшүндүрмөлөр менен жекелештирилген топ-3 сунуштарды алыңыз."
+      }
+    },
+    "cta": "Баалоону баштоо",
+    "footer": {
+      "copyright": "© 2026 Унгаров академиясынын Ungarov Advisor эксперттик системасы.",
+      "disclaimer": "Бул эрежелерге негизделген эксперттик система, машина үйрөнүү модели эмес."
+    }
+  },
+  "auth": {
+    "register": {
+      "title": "Каттоо эсебин түзүү",
+      "subtitle": "Баалоо жыйынтыктарын сактоо үчүн катталыңыз",
+      "name": "Толук аты-жөнү",
+      "namePlaceholder": "Асан Усенов",
+      "email": "Электрондук почта",
+      "emailPlaceholder": "you@example.com",
+      "password": "Сырсөз",
+      "confirmPassword": "Сырсөздү ырастоо",
+      "submit": "Каттоо эсебин түзүү",
+      "creating": "Каттоо эсеби түзүлүүдө...",
+      "hasAccount": "Каттоо эсебиңиз барбы?",
+      "signIn": "Кирүү",
+      "passwordStrength": "Сырсөз күчтүлүгү",
+      "strength": {
+        "veryWeak": "Өтө алсыз",
+        "weak": "Алсыз",
+        "fair": "Орточо",
+        "good": "Жакшы",
+        "strong": "Күчтүү"
+      }
+    },
+    "login": {
+      "title": "Кайра кош келиңиз",
+      "subtitle": "Баалоо тарыхына кирүү үчүн кириңиз",
+      "email": "Электрондук почта",
+      "emailPlaceholder": "you@example.com",
+      "password": "Сырсөз",
+      "passwordPlaceholder": "••••••••",
+      "submit": "Кирүү",
+      "signingIn": "Кирүү...",
+      "noAccount": "Каттоо эсебиңиз жокпу?",
+      "createOne": "Түзүү"
+    },
+    "backToHome": "Башкы бетке кайтуу"
+  },
+  "questionnaire": {
+    "title": "Карьера жолун баалоо",
+    "subtitle": "Сиздин кызыкчылыктарыңызды, көндүмдөрүңүздү жана максаттарыңызды түшүнүүгө жардам берүү үчүн төмөнкү суроолорго жооп бериңиз. Бул сиз үчүн мыкты адистиктерди сунуштоого жардам берет.",
+    "step": "Кадам",
+    "of": "ичинен",
+    "previous": "Артка",
+    "next": "Кийинки",
+    "getRecommendations": "Сунуштарды алуу",
+    "analyzing": "Талдоо...",
+    "error": "Улантуудан мурун бардык суроолорго жооп бериңиз.",
+    "steps": {
+      "interests": {
+        "title": "Сиздин кызыкчылыктарыңыз",
+        "description": "Кайсы темалар жана иш-аракеттер сизди эң көп кызыктырарын айтып бериңиз",
+        "questions": {
+          "primary-interest": {
+            "text": "Бул тармактардын кайсынысы сизди көбүрөөк кызыктырат?",
+            "options": {
+              "building-software": { "label": "Программалык камсыздоо жана тиркемелерди түзүү", "description": "Чыныгы көйгөйлөрдү чечкен программаларды түзүү" },
+              "analyzing-data": { "label": "Маалыматтарды талдоо жана мыйзам ченемдүүлүктөрдү табуу", "description": "Сандар жана статистика менен иштөө" },
+              "designing-interfaces": { "label": "Кооз интерфейстерди долбоорлоо", "description": "Көзгө жагымдуу жана колдонууга ыңгайлуу дизайндарды түзүү" },
+              "solving-puzzles": { "label": "Татаал логикалык табышмактарды чечүү", "description": "Татаал көйгөйлөрдү бөлүктөргө бөлүү" },
+              "protecting-systems": { "label": "Системаларды коркунучтардан коргоо", "description": "Коопсуздук жана коргонуу стратегиялары" },
+              "managing-projects": { "label": "Долбоорлорду жана командаларды башкаруу", "description": "Лидерлик жана координация" }
+            }
+          },
+          "secondary-interests": {
+            "text": "Сизди кызыктырган БААРДЫК башка аймактарды тандаңыз:",
+            "options": {
+              "gaming": "Видео оюндар жана интерактивдүү көңүл ачуу",
+              "mobile-apps": "Мобилдик тиркемелер",
+              "websites": "Вебсайттар жана веб-тиркемелер",
+              "ai-ml": "Жасалма интеллект жана машина үйрөнүү",
+              "cloud-infra": "Булут инфраструктурасы жана серверлер",
+              "robotics": "Робототехника жана автоматташтыруу",
+              "business-tech": "Бизнес жана технология стратегиясы",
+              "research": "Академиялык изилдөө жана теория"
+            }
+          },
+          "learning-preference": {
+            "text": "Жаңы нерселерди кандай үйрөнгөндү жактырасыз?",
+            "options": {
+              "hands-on": { "label": "Практикалык эксперименттер", "description": "Сыноо жана жаңылыштык, долбоорлорду куруу" },
+              "structured-courses": { "label": "Түзүмдөштүрүлгөн курстар жана сабактар", "description": "Окуу программасын кадам сайын аткаруу" },
+              "reading-docs": { "label": "Документация жана китептерди окуу", "description": "Жазуу материалдарына терең сүңгүү" },
+              "collaboration": { "label": "Башкалар менен кызматташуу", "description": "Талкуулоо жана командалык иш аркылуу үйрөнүү" }
+            }
+          }
+        }
+      },
+      "skills": {
+        "title": "Сиздин көндүмдөрүңүз",
+        "description": "Ар түрдүү тармактардагы учурдагы жөндөмдөрүңүздү баалаңыз",
+        "questions": {
+          "programming-level": {
+            "text": "Программалоо жөндөмүңүздү кандай баалайсыз?",
+            "labels": { "min": "Толук үйрөнчүк", "max": "Өнүккөн/Кесипкөй" }
+          },
+          "math-level": {
+            "text": "Математика жана статистика менен иштөө сизге канчалык ыңгайлуу?",
+            "labels": { "min": "Ыңгайлуу эмес", "max": "Абдан ыңгайлуу" }
+          },
+          "design-level": {
+            "text": "Визуалдык/дизайн жөндөмүңүздү кандай баалайсыз?",
+            "labels": { "min": "Менин күчтүү жагым эмес", "max": "Абдан чыгармачыл" }
+          },
+          "communication-level": {
+            "text": "Сиздин баарлашуу жана презентация көндүмдөрүңүз канчалык күчтүү?",
+            "labels": { "min": "Жакшыртууга муктаж", "max": "Мыкты баарлашуучу" }
+          },
+          "existing-skills": {
+            "text": "Бул көндүмдөрдүн кайсынысы боюнча тажрыйбаңыз бар?",
+            "options": {
+              "html-css": "HTML жана CSS",
+              "javascript": "JavaScript",
+              "python": "Python",
+              "java-csharp": "Java же C#",
+              "sql": "SQL / Маалымат базалары",
+              "design-tools": "Дизайн куралдары (Figma, Photoshop)",
+              "data-analysis": "Маалыматтарды талдоо (Excel, R)",
+              "none": "Жогорудагылардын бири да эмес"
+            }
+          }
+        }
+      },
+      "personality": {
+        "title": "Сиздин мүнөзүңүз",
+        "description": "Иш стилиңизди жана артыкчылыктарыңызды түшүнүүгө жардам бериңиз",
+        "questions": {
+          "work-style": {
+            "text": "Кандай иштегенди жактырасыз?",
+            "options": {
+              "solo": { "label": "Өз алдынча, өз милдеттериме көңүл буруп", "description": "Мен жалгыз эң жакшы иштейм" },
+              "small-team": { "label": "Чакан, ынтымактуу командада", "description": "Ишенимдүү кесиптештер менен кызматташуу" },
+              "large-team": { "label": "Чоң, ар түрдүү командада", "description": "Чоң уюмдун бир бөлүгү" },
+              "mixed": { "label": "Жеке жана командалык иштин аралашмасы", "description": "Тапшырмага жараша ийкемдүүлүк" }
+            }
+          },
+          "problem-approach": {
+            "text": "Татаал көйгөйгө туш болгондо, адатта:",
+            "options": {
+              "analytical": { "label": "Аны логикалык кадамдарга бөлөсүз", "description": "Системалык, методикалык мамиле" },
+              "creative": { "label": "Чыгармачыл, адаттан тыш чечимдерди издейсиз", "description": "Чегерден тышкары ой жүгүртүү" },
+              "research": { "label": "Башкалар аны кантип чечкенин изилдейсиз", "description": "Бар чечимдерден үйрөнүү" },
+              "experiment": { "label": "Ошол замат эксперимент жасай баштайсыз", "description": "Иш жүзүндө үйрөнүү, тез кайталоо" }
+            }
+          },
+          "detail-vs-bigpicture": {
+            "text": "Сизди кимиси жакшыраак сүрөттөйт?",
+            "options": {
+              "detail-oriented": { "label": "Майда-чүйдөсүнө чейин көңүл бурган перфекционист", "description": "Мен ар бир деталдын туура болушуна көңүл бурам" },
+              "big-picture": { "label": "Жалпы көрүнүштү көргөн көрөгөч", "description": "Мен жалпы стратегияга жана көрүнүшкө көңүл бурам" },
+              "balanced": { "label": "Тен салмактуу - кырдаалга жараша", "description": "Мен эки режимдин ортосунда которула алам" }
+            }
+          },
+          "risk-tolerance": {
+            "text": "Тобокелге салуу жана жаңы нерселерди сынап көрүү жөнүндө кандай ойдосуз?",
+            "labels": { "min": "Туруктуулукту жактырам", "max": "Эксперимент жасоону сүйөм" }
+          }
+        }
+      },
+      "career": {
+        "title": "Карьера максаттары",
+        "description": "Кесиптик умтулууларыңыз жана артыкчылыктарыңыз менен бөлүшүңүз",
+        "questions": {
+          "work-environment": {
+            "text": "Кандай иш чөйрөсү сизге көбүрөөк жагат?",
+            "options": {
+              "startup": { "label": "Тез өнүгүп жаткан стартап", "description": "Жогорку тобокелдик, сыйлык, көп роль" },
+              "corporate": { "label": "Түзүлгөн корпорация", "description": "Туруктуулук, так карьералык жолдор, ресурстар" },
+              "freelance": { "label": "Фриланс / Өз алдынча иштөө", "description": "Көз карандысызды, долбоорлордун ар түрдүүлүгү" },
+              "research": { "label": "Изилдөө институту / Академия", "description": "Инновацияга жана билимге басым жасоо" },
+              "government": { "label": "Өкмөт / Коммерциялык эмес", "description": "Коомдук кызмат, социалдык таасир" }
+            }
+          },
+          "career-priority": {
+            "text": "Карьерада сиз үчүн эң маанилүү нерсе эмне?",
+            "options": {
+              "salary": "Жогорку айлык жана каржылык коопсуздук",
+              "impact": "Коомго оң таасирин тийгизүү",
+              "creativity": "Чыгармачылык эркиндик жана өзүн-өзү билдирүү",
+              "growth": "Үзгүлтүксүз окуу жана өсүү",
+              "balance": "Жумуш жана жашоо балансы",
+              "leadership": "Лидерлик жана таасир"
+            }
+          },
+          "five-year-vision": {
+            "text": "5 жылдан кийин өзүңүздү кайдан көрөсүз?",
+            "options": {
+              "technical-expert": { "label": "Өз тармагым боюнча терең техникалык эксперт", "description": "Ага инженер, архитектор же адис" },
+              "team-lead": { "label": "Кесипкөйлөр командасын жетектөө", "description": "Менеджер, команда лидери же директор" },
+              "entrepreneur": { "label": "Өз бизнесимди же стартапымды башкаруу", "description": "Негиздөөчү, башкы директор же консультант" },
+              "researcher": { "label": "Алдыңкы изилдөөлөргө салым кошуу", "description": "PhD, илимий кызматкер же академик" },
+              "versatile": { "label": "Ар тараптуу тажрыйбасы бар кесипкөй", "description": "Көп тармактуу ролду аткаруу" }
+            }
+          },
+          "industry-preference": {
+            "text": "Кайсы тармактар ​​сизди көбүрөөк кызыктырат? (Баарын тандаңыз)",
+            "options": {
+              "tech": "Технология жана программалык камсыздоо",
+              "finance": "Каржы жана банк иши",
+              "healthcare": "Саламаттыкты сактоо жана жашоо илимдери",
+              "gaming": "Оюндар жана көңүл ачуу",
+              "education": "Билум берүү жана EdTech",
+              "ecommerce": "Электрондук коммерция жана чекене соода",
+              "security": "Коопсуздук жана коргонуу",
+              "any": "Каалаган тармакка ачыкмын"
+            }
+          }
+        }
+      }
+    }
+  },
+  "results": {
+    "badge": "Сиздин жекелештирилген жыйынтыктарыңыз",
+    "title": "Топ сунушталган адистиктер",
+    "subtitle": "Сиздин кызыкчылыктарыңыз, көндүмдөрүңүз, мүнөзүңүз жана карьера максаттарыңыздын негизинде, бул жерде сиздин профилиңизге эң ылайыктуу адистиктер.",
+    "analysisNote": "Биздин эксперттик система бул сунуштарды түзүү үчүн {count} салмактуу эрежелерди колдонуп, жоопторуңузду талдады. Толук түшүндүрмөлөрдү көрүү үчүн ар бир карточканы басыңыз.",
+    "retakeAssessment": "Кайра баалоо",
+    "backToHome": "Башкы бетке",
+    "notSatisfied": "Жыйынтыктарга канааттанган жоксузбу? Баалоону кайра өтүп же башка варианттарды изилдей аласыз.",
+    "generatedAt": "Түзүлгөн",
+    "disclaimer": "Бул сунуш эрежелерге негизделген эксперттик система талдоосуна негизделген. Сиздин акыркы чечимиңиз жеке жагдайлар, рынок тенденциялары жана кесиптик кеңештер сыяктуу башка факторлорду да эске алышы керек.",
+    "error": {
+      "title": "Ой!",
+      "noResults": "Жыйынтыктар табылган жок. Адегенде сурамжылоону толтуруңуз.",
+      "takeQuestionnaire": "Сурамжылоону толтуруу"
+    },
+    "loading": "Сунуштарыңыз жүктөлүүдө...",
+    "card": {
+      "match": "Дал келүү",
+      "confidence": {
+        "high": "Жогорку ишеним",
+        "medium": "Орточо ишеним",
+        "low": "Төмөн ишеним"
+      },
+      "viewDetails": "Толугураак",
+      "hideDetails": "Жашыруу",
+      "whyRecommended": "Бул эмне үчүн сунушталды",
+      "keyFactors": "Негизги факторлор",
+      "yourStrengths": "Сиздин күчтүү жактарыңыз",
+      "considerations": "Сунуштар",
+      "careerPaths": "Карьера жолдору",
+      "keySkills": "Негизги көндүмдөр"
+    }
+  },
+  "dashboard": {
+    "welcome": "Кайра кош келиңиз",
+    "subtitle": "Баалоо тарыхыңызды караңыз жана жаңы карьера жолу баалоолорун өтүңүз.",
+    "stats": {
+      "totalAssessments": "Жалпы баалоолор",
+      "topRecommendation": "Топ сунуш",
+      "yourAccount": "Сиздин эсебиңиз"
+    },
+    "newAssessment": {
+      "title": "Жаңы баалоого даярсызбы?",
+      "subtitle": "Профилиңизге ылайыктуу көбүрөөк адистиктерди ачуу үчүн биздин сурамжылоону өтүңүз.",
+      "button": "Жаңы баалоо"
+    },
+    "history": {
+      "title": "Сиздин баалоо тарыхыңыз",
+      "empty": {
+        "title": "Азырынча баалоо жок",
+        "subtitle": "Идеалдуу адистигиңизди ачуу үчүн биринчи баалоо өтүңүз!",
+        "button": "Баалоону баштоо"
+      },
+      "topMatch": "Мыкты дал келүү",
+      "viewDetails": "Толугураак"
+    }
+  },
+  "data": {
+    "specializations": {
+      "computer-science": {
+        "name": "Компьютердик илимдер (CS)",
+        "description": "Study of computation, algorithms, and programming. Focus on theoretical foundations and software engineering."
+      },
+      "data-science": {
+        "name": "Маалымат илими (Data Science)",
+        "description": "Extracting insights from data using statistics, machine learning, and visualization."
+      },
+      "cybersecurity": {
+        "name": "Киберкоопсуздук",
+        "description": "Protecting systems, networks, and data from digital attacks. Ethical hacking and risk analysis."
+      },
+      "web-development": {
+        "name": "Веб иштеп чыгуу",
+        "description": "Building websites and web applications. Frontend, backend, and full-stack development."
+      },
+      "mobile-development": {
+        "name": "Мобилдик иштеп чыгуу",
+        "description": "Creating applications for smartphones and tablets (iOS, Android)."
+      },
+      "ui-ux-design": {
+        "name": "UI/UX Дизайн",
+        "description": "Designing user interfaces and experiences. Usability patterns and visual design."
+      },
+      "artificial-intelligence": {
+        "name": "Жасалма интеллект (AI)",
+        "description": "Creating intelligent systems capable of learning and decision making."
+      },
+      "game-development": {
+        "name": "Оюндарды иштеп чыгуу (GameDev)",
+        "description": "Building video games. Combines programming, design, and storytelling."
+      },
+      "cloud-computing": {
+        "name": "Булут технологиялары (Cloud & DevOps)",
+        "description": "Managing cloud infrastructure and automating software delivery."
+      },
+      "business-it": {
+        "name": "Бизнес жана IT менеджмент",
+        "description": "Bridging technology and business strategy. Project management and digital transformation."
+      }
+    },
+    "rules": {
+      "cs-primary-building": "Your primary interest in building software directly aligns with Computer Science.",
+      "cs-primary-puzzles": "Your love for solving complex puzzles is a core trait of successful Computer Scientists.",
+      "cs-high-programming": "Your strong programming skills provide an excellent foundation for Computer Science.",
+      "cs-analytical-approach": "Your analytical, systematic approach matches the methodical nature of CS problem-solving.",
+      "cs-technical-expert-goal": "Computer Science offers deep specialization paths to become a technical expert.",
+      "cs-java-csharp-skills": "Your experience with Java or C# is valuable for traditional CS applications.",
+      "cs-research-interest": "Your interest in research aligns with the theoretical aspects of Computer Science.",
+      
+      "ds-primary-analyzing": "Your passion for analyzing data is the defining characteristic of Data Scientists.",
+      "ds-high-math": "Your strong mathematics skills are essential for statistical analysis in Data Science.",
+      "ds-python-skills": "Your Python experience is highly relevant as it is the primary language for Data Science.",
+      "ds-data-analysis-skills": "Your existing data analysis experience gives you a head start in Data Science.",
+      "ds-finance-industry": "The finance industry heavily relies on Data Science for quantitative analysis.",
+      "ds-detail-oriented": "Your attention to detail is crucial for accurate data analysis.",
+      "ds-sql-skills": "Your SQL knowledge is essential for working with databases in Data Science.",
+
+      "sec-primary-protecting": "Your drive to protect systems is the core motivation for Cybersecurity professionals.",
+      "sec-security-industry": "Your interest in the security industry directly aligns with Cybersecurity.",
+      "sec-analytical-approach": "Your analytical approach is essential for threat analysis and security audits.",
+      "sec-detail-oriented": "Attention to detail is critical in Security - one oversight can be catastrophic.",
+      "sec-government-interest": "Government organizations have high demand for Cybersecurity professionals.",
+      "sec-puzzles-interest": "Security involves solving complex puzzles like an attacker would.",
+
+      "web-websites-interest": "Your interest in websites directly aligns with Web Development.",
+      "web-html-css-skills": "Your HTML/CSS experience is the foundation of Web Development.",
+      "web-javascript-skills": "JavaScript is the essential language for modern Web Development.",
+      "web-hands-on-learning": "Web Development is highly practical and rewards hands-on learning.",
+      "web-freelance-goal": "Web Development is one of the most accessible paths to freelancing.",
+      "web-building-interest": "Web Development lets you build complete, working applications.",
+      "web-ecommerce-industry": "E-commerce relies heavily on Web Development for online storefronts.",
+
+      "mobile-apps-interest": "Your direct interest in mobile apps makes Mobile Development a natural fit.",
+      "mobile-javascript-skills": "Your JavaScript skills can be applied to React Native mobile development.",
+      "mobile-creative-approach": "Mobile apps require creative solutions for limited screen space.",
+      "mobile-startup-goal": "Many startups focus on mobile-first products.",
+      "mobile-entrepreneur-vision": "Mobile apps are a popular path for tech entrepreneurs.",
+
+      "ux-primary-designing": "Your passion for designing interfaces is the core of UI/UX Design.",
+      "ux-high-design-skills": "Your strong visual design skills are essential for UI/UX Design.",
+      "ux-design-tools": "Your experience with design tools like Figma gives you a head start.",
+      "ux-creative-approach": "UI/UX Design rewards creative, unconventional thinking.",
+      "ux-creativity-priority": "UI/UX Design offers exceptional creative freedom.",
+      "ux-communication-skills": "UX designers need strong communication to advocate for users.",
+      "ux-collaboration-learning": "UX Design involves extensive collaboration with stakeholders and users.",
+
+      "ai-ml-interest": "Your direct interest in AI/ML is the foundation for this specialization.",
+      "ai-high-math": "Advanced mathematics is essential for understanding AI algorithms.",
+      "ai-python-skills": "Python is the primary language for AI/ML development.",
+      "ai-research-interest": "AI is a research-intensive field with constant innovation.",
+      "ai-researcher-vision": "AI offers excellent paths for research careers.",
+      "ai-research-environment": "AI roles are common in research institutions and labs.",
+      "ai-analyzing-interest": "AI heavily involves analyzing patterns in data.",
+
+      "game-gaming-interest": "Your passion for gaming is the foundation for Game Development.",
+      "game-java-csharp": "C# is the primary language for Unity game development.",
+      "game-creative-approach": "Game Development combines technical skills with creative vision.",
+      "game-design-skills": "Visual design skills enhance game aesthetics.",
+      "game-industry-preference": "Direct alignment with the gaming industry.",
+      "game-hands-on": "Game Development is highly practical and project-based.",
+
+      "cloud-infra-interest": "Your interest in cloud infrastructure directly aligns with this field.",
+      "cloud-automation-interest": "Your automation interest applies to infrastructure automation in DevOps.",
+      "cloud-analytical-approach": "Cloud architecture requires systematic, analytical thinking.",
+      "cloud-corporate-goal": "Large corporations have significant cloud infrastructure needs.",
+      "cloud-high-salary-priority": "Cloud/DevOps engineers command high salaries due to demand.",
+      "cloud-python-skills": "Python is widely used for cloud automation scripts.",
+
+      "biz-primary-managing": "Your interest in management is the core of Business & IT Management.",
+      "biz-business-tech-interest": "Your interest in business technology strategy aligns perfectly.",
+      "biz-high-communication": "Strong communication is essential for IT management roles.",
+      "biz-team-lead-vision": "Business & IT Management is the direct path to leadership roles.",
+      "biz-leadership-priority": "This specialization focuses on developing leadership capabilities.",
+      "biz-large-team-preference": "IT Management often involves coordinating large, diverse teams.",
+      "biz-big-picture": "Strategic, big-picture thinking is crucial for IT management.",
+      "biz-corporate-environment": "Corporate environments offer structured paths for IT management careers."
+    }
+  },
+  "common": {
+    "loading": "Жүктөлүүдө...",
+    "error": "Ката кетти",
+    "tryAgain": "Кайра аракет"
+  }
+}
