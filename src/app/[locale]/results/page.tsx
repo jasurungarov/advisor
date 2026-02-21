@@ -102,7 +102,7 @@ export default function ResultsPage() {
       </div>
 
       {/* Header */}
-      <header className="fixed top-0  inset-x-0 z-50 backdrop-blur-md container mx-auto px-4 py-4 flex justify-between items-center border-b">
+      <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md container mx-auto px-4 py-4 flex justify-between items-center border-b">
         <Link
           href="/"
           className="inline-flex items-center gap-2 hover:text-brand-500 transition-colors"
@@ -110,7 +110,7 @@ export default function ResultsPage() {
           <ChevronLeft className="w-4 h-4" />
           {t('backToHome')}
         </Link>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center md:gap-4 gap-1">
           <ThemeToggle />
           <LanguageSwitcher />
           <Button

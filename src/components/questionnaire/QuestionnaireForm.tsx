@@ -470,7 +470,7 @@ export function QuestionnaireForm() {
               variant="outline"
               onClick={handlePrevious}
               disabled={currentStep === 0}
-              className="gap-2 bg-brand-500 text-brand-900 font-semibold hover:bg-secondary/80 shadow-md shadow-brand-500/25 transition-all duration-300"
+              className="gap-2 bg-brand-500 text-brand-900 font-semibold border border-primary hover:bg-secondary/80 shadow-md shadow-brand-500/25 transition-all duration-300"
             >
               <ChevronLeft className="w-4 h-4" />
               {t('previous')}
@@ -479,7 +479,7 @@ export function QuestionnaireForm() {
             {currentStep < steps.length - 1 ? (
               <Button
                 onClick={handleNext}
-                className="gap-2 bg-brand-500 text-brand-900 font-semibold hover:bg-secondary/80 shadow-md shadow-brand-500/25 transition-all duration-300"
+                className="gap-2 bg-brand-500 text-brand-900 font-semibold border border-primary hover:bg-secondary/80 shadow-md shadow-brand-500/25 transition-all duration-300"
               >
               {t('next')}
               <ChevronRight className="w-4 h-4" />
@@ -488,7 +488,7 @@ export function QuestionnaireForm() {
               <Button
                 onClick={handleSubmit}
                 disabled={isSubmitting}
-                className="gap-2 bg-brand-500 text-brand-900 font-semibold hover:bg-brand-700 hover:text-white shadow-md shadow-brand-500/25 transition-all duration-300"
+                className="gap-2 bg-brand-500 text-brand-900 font-semibold border border-primary hover:bg-brand-700 hover:text-white shadow-md shadow-brand-500/25 transition-all duration-300"
               >
               {isSubmitting ? (
                 <>

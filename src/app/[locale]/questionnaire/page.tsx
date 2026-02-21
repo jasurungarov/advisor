@@ -23,10 +23,10 @@ export default function QuestionnairePage() {
       </div>
 
       {/* Header */}
-      <header className="container mx-auto px-4 py-6 flex justify-between items-center">
+      <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md container mx-auto px-4 py-4 flex justify-between items-center border-b">
         <Link
           href="/"
-          className="inline-flex items-center gap-2 text-[#4a6e5d] dark:text-brand-100/70 hover:text-brand-500 transition-colors dark:text-white"
+          className="inline-flex items-center gap-2 dark:text-brand-100/70 hover:text-brand-500 transition-colors dark:text-white"
         >
           <ChevronLeft className="w-4 h-4" />
           Back to Home
@@ -38,7 +38,7 @@ export default function QuestionnairePage() {
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-8">
+      <main className="container mx-auto px-4 py-8 mt-18">
         <div className="text-center mb-8">
           <h1 className="text-3xl md:text-4xl font-bold text-brand-900 dark:text-brand-100 mb-2">
              {t('questionnaire.title')}
