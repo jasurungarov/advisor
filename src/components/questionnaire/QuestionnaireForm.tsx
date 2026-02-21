@@ -112,7 +112,7 @@ function SingleSelectQuestion({
             <Label
               htmlFor={`${question.id}-${option.id}`}
               className={`
-                flex flex-col cursor-pointer rounded-xl border p-4 transition-all duration-200
+                flex flex-col cursor-pointer rounded-xl border-2 p-4 transition-all duration-200
                 hover:border-brand-500/50 hover:bg-brand-100/30 dark:hover:bg-secondary/40
                 peer-data-[state=checked]:border-primary peer-data-[state=checked]:bg-brand-100 dark:peer-data-[state=checked]:bg-secondary/20
                 peer-data-[state=checked]:shadow-md
@@ -441,7 +441,7 @@ export function QuestionnaireForm() {
               key={question.id}
               className="space-y-4 p-4 rounded-xl bg-brand-50/50 dark:bg-brand-900/20"
             >
-              <h3 className="font-medium text-brand-900 dark:text-brand-100 flex items-start gap-2">
+              <h3 className="font-medium text-brand-900 dark:text-brand-100 flex items-start gap-2 shadow-[0_0_20px_rgba(0,0,0,0.25)] shadow-secondary rounded-xl p-2">
                 <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-brand-100 text-brand-700 text-sm font-bold shrink-0">
                   {index + 1}
                 </span>
