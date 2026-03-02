@@ -17,7 +17,7 @@ async function Hero() {
         <div className="container mx-auto px-4 py-20 lg:py-32 pt-28">
           <div className="text-center max-w-4xl mx-auto">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-900 text-brand-50 text-sm font-medium mb-8 shadow-lg shadow-brand-900/20 dark:bg-brand-500/20 dark:text-brand-100 border border-primary">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium mb-8 glass-card">
               <Sparkles className="w-4 h-4 text-gold" />
               {t("landing.badge")}
             </div>
@@ -40,7 +40,7 @@ async function Hero() {
               <Link href="/questionnaire">
                 <Button
                   size="lg"
-                  className="gap-2 text-lg px-8 dark:bg-primary/20  py-6 bg-brand-500 text-brand-900 font-semibold hover:bg-brand-700  shadow-brand-500/30 border border-primary transition-shadow duration-300 hover:shadow-[0_0_30px_rgba(0,0,0,0.18)] dark:shadow-primary dark:hover:shadow-primary ">
+                  className="gap-2 text-lg px-8 dark:bg-primary/20 rounded-2xl py-6 bg-brand-500 text-brand-900 font-semibold hover:bg-brand-700  shadow-brand-500/30 border border-primary transition-shadow duration-300 hover:shadow-[0_0_30px_rgba(0,0,0,0.18)] dark:shadow-primary dark:hover:shadow-primary ">
                   {t("landing.startAssessment")}
                   <ChevronRight className="w-5 h-5" />
                 </Button>

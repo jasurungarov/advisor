@@ -8,6 +8,7 @@ import { getMessages } from 'next-intl/server'
 import { Geist, Geist_Mono, Lora } from "next/font/google"
 import { notFound } from 'next/navigation'
 import "../globals.css"
+import { toast } from 'sonner';
 
 const lora = Lora({
   subsets: ["latin"],
@@ -127,9 +128,11 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased transition-colors duration-300`}
       >
         <ThemeProvider>
+          
           <NextIntlClientProvider messages={messages}>
             {children}
           </NextIntlClientProvider>
+          
         </ThemeProvider>
       </body>
     </html>

@@ -60,7 +60,7 @@ const SPECIALIZATION_ICONS: Record<string, React.ReactNode> = {
 function RankBadge({ rank }: { rank: number }) {
   if (rank === 1) {
     return (
-      <div className="absolute -top-3 -right-3 w-16 h-16">
+      <div className="absolute -top-3 -right-3 w-16 h-16 ">
         <div className="relative w-full h-full">
           <div className="absolute inset-0 bg-linear-to-brrom-gold to-amber-600 rounded-full animate-pulse shadow-lg" />
           <div className="absolute inset-1 bg-linear-to-br from-gold-light to-gold rounded-full flex items-center justify-center">
@@ -74,7 +74,7 @@ function RankBadge({ rank }: { rank: number }) {
   return (
     <div
       className={`
-        absolute -top-2 -right-2 w-10 h-10 rounded-full flex items-center justify-center
+        absolute -top-2 -right-2 w-10 h-10 rounded-full flex items-center justify-center 
         font-bold text-white shadow-lg
         ${rank === 2 ? 'bg-linear-to-br from-slate-400 to-slate-500' : ''}
         ${rank === 3 ? 'bg-linear-to-br from-amber-600 to-amber-700' : ''}
@@ -94,7 +94,7 @@ function MatchScoreCircle({ score, color }: { score: number; color: string }) {
   const strokeDashoffset = circumference - (score / 100) * circumference;
 
   return (
-    <div className="relative w-24 h-24 shrink-0">
+    <div className="relative w-24 h-24 shrink-0 ">
       <svg className="w-full h-full transform -rotate-90">
         <circle
           cx="48"
@@ -167,14 +167,14 @@ function ExplanationSection({
   return (
     <div
       className={`
-        overflow-hidden
+        overflow-hidden 
         transition-all duration-300 ease-in-out
         ${isExpanded
-          ? "max-h-500 opacity-100 translate-y-0"
-          : "max-h-0 opacity-0 -translate-y-2"}
+          ? "max-h-500 opacity-100 translate-y-0 "
+          : "max-h-0 opacity-0 -translate-y-2 "}
       `}
     >
-      <div className="mt-6 space-y-6 border-t border-[#b8e0d4] pt-6">
+      <div className="mt-6 space-y-6 border-t border-[#b8e0d4] pt-6 ">
         {/* Summary */}
         <div className="space-y-2">
           <h4 className="font-semibold text-brand-900 flex items-center gap-2">
@@ -193,7 +193,7 @@ function ExplanationSection({
             {t("keyFactors")}
           </h4>
 
-          <div className="space-y-2">
+          <div className="space-y-2 ">
             {allFactors.slice(0, 5).map((factor, index) => (
               <div
                 key={`${factor.ruleId}-${index}`}
@@ -320,7 +320,7 @@ export function RecommendationCard({ recommendation }: { recommendation: Recomme
   return (
     <Card
       className={`
-        relative overflow-hidden transition-shadow duration-300 hover:shadow-[0_0_30px_rgba(0,0,0,0.18)] dark:shadow-primary dark:hover:shadow-primary
+        relative dark:bg-[#0e4a38]/80 overflow-hidden transition-shadow duration-300 hover:shadow-[0_0_30px_rgba(0,0,0,0.18)] dark:shadow-primary dark:hover:shadow-primary
         ${rank === 1
           ? 'border-2 border-primary'
           : 'border border-primary'

@@ -23,7 +23,8 @@ export default function QuestionnairePage() {
       </div>
 
       {/* Header */}
-      <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md container mx-auto px-4 py-4 flex justify-between items-center border-b">
+      <header className="fixed top-6 inset-x-0 z-50 flex justify-center">
+      <div className="flex justify-between w-[95%] max-w-7xl px-6 py-3 rounded-2xl glass-navbar transition-all duration-300">
         <Link
           href="/"
           className="inline-flex items-center gap-2 dark:text-brand-100/70 hover:text-brand-500 transition-colors dark:text-white"
@@ -35,12 +36,13 @@ export default function QuestionnairePage() {
           <ThemeToggle />
           <LanguageSwitcher />
         </div>
+      </div>
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-8 mt-18">
+      <main className="container w-full mx-auto px-4 py-8">
         <div className="text-center mb-8">
-          <h1 className="text-3xl md:text-4xl font-bold text-brand-900 dark:text-brand-100 mb-2">
+          <h1 className="text-3xl md:text-4xl font-bold text-brand-900 dark:text-brand-100 mb-2 mt-20">
              {t('questionnaire.title')}
           </h1>
           <p className="text-[#4a6e5d] dark:text-brand-100/70 max-w-xl mx-auto">

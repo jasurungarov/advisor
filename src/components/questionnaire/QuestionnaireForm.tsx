@@ -1,16 +1,4 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-/**
- * Questionnaire Form Component
- * 
- * A multi-step form that collects student information for the expert system.
- * Features:
- * - Step-by-step navigation
- * - Progress indicator
- * - Form validation
- * - Animated transitions
- * - Responsive design
- */
-
 'use client';
 
 import { saveAssessment } from '@/app/actions/assessment';
@@ -75,7 +63,7 @@ function ScaleInput({
     </div>
   );
 }
-
+ 
 /**
  * Single Select Question Component
  */

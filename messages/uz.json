@@ -270,39 +270,68 @@
     }
   },
   "results": {
-    "badge": "Sizning shaxsiylashtirilgan natijalaringiz",
-    "title": "Eng ko'p tavsiya etilgan mutaxassisliklar",
-    "subtitle": "Sizning qiziqishlaringiz, ko'nikmalaringiz, shaxsiyatingiz va martaba maqsadlaringizga asoslanib, profilingizga eng mos keladigan mutaxassisliklar mana shu yerda.",
-    "analysisNote": "Bizning ekspert tizimimiz ushbu tavsiyalarni yaratish uchun {count} vaznli qoidalardan foydalanib, javoblaringizni tahlil qildi. Batafsil tushuntirishlarni ko'rish uchun har bir kartani bosing.",
-    "retakeAssessment": "Qayta baholash",
-    "backToHome": "Bosh sahifaga",
-    "notSatisfied": "Natijalardan qoniqmadingizmi? Baholashni qayta o'tishingiz yoki boshqa variantlarni o'rganishingiz mumkin.",
-    "generatedAt": "Yaratilgan",
-    "disclaimer": "Ushbu tavsiya qoidalarga asoslangan ekspert tizimi tahliliga asoslangan. Sizning yakuniy qaroringiz shaxsiy holatlar, bozor tendentsiyalari va professional maslahatlar kabi boshqa omillarni ham hisobga olishi kerak.",
-    "error": {
-      "title": "Voy!",
-      "noResults": "Natijalar topilmadi. Iltimos, avval so'rovnomani to'ldiring.",
-      "takeQuestionnaire": "So'rovnomani to'ldirish"
+  "badge": "Sizning shaxsiylashtirilgan natijalaringiz",
+  "title": "Eng ko‘p tavsiya etilgan mutaxassisliklar",
+  "subtitle": "Sizning qiziqishlaringiz, ko‘nikmalaringiz, shaxsiyatingiz va martaba maqsadlaringizga asoslanib, profilingizga eng mos keladigan mutaxassisliklar mana shu yerda.",
+  "analysisNote": "Bizning ekspert tizimimiz ushbu tavsiyalarni yaratish uchun {count} vaznli qoidalardan foydalanib, javoblaringizni tahlil qildi. Batafsil tushuntirishlarni ko‘rish uchun har bir kartani bosing.",
+  "retakeAssessment": "Qayta baholash",
+  "backToHome": "Bosh sahifaga",
+  "notSatisfied": "Natijalardan qoniqmadingizmi? Baholashni qayta o‘tishingiz yoki boshqa variantlarni o‘rganishingiz mumkin.",
+  "generatedAt": "Yaratilgan",
+  "disclaimer": "Ushbu tavsiya qoidalarga asoslangan ekspert tizimi tahliliga asoslangan. Yakuniy qaror qabul qilishda shaxsiy holatlar, bozor tendensiyalari va professional maslahatlarni ham hisobga olish kerak.",
+  "error": {
+    "title": "Voy!",
+    "noResults": "Natijalar topilmadi. Iltimos, avval so‘rovnomani to‘ldiring.",
+    "takeQuestionnaire": "So‘rovnomani to‘ldirish"
+  },
+  "loading": "Tavsiyalaringiz yuklanmoqda...",
+  "card": {
+    "match": "Moslik",
+    "confidence": {
+      "high": "Yuqori ishonch",
+      "medium": "O‘rtacha ishonch",
+      "low": "Past ishonch"
     },
-    "loading": "Tavsiyalaringiz yuklanmoqda...",
-    "card": {
-      "match": "Moslik",
+    "strength": {
+      "excellent": "Juda yuqori",
+      "good": "Yaxshi",
+      "average": "O‘rtacha",
+      "strong": "Kuchli"
+    },
+    "category": {
+      "career": "Martaba",
+      "interests": "Qiziqishlar",
+      "skills": "Ko‘nikmalar",
+      "personality": "Shaxsiyat"
+    },
+    "summaryTemplate": {
+      "start": "{specName} yo‘nalishi siz uchun {strength} darajada mos keladi.",
+      "category": "{category} omillari ushbu tanlovni qo‘llab-quvvatlaydi.",
       "confidence": {
-        "high": "Yuqori ishonch",
-        "medium": "O'rtacha ishonch",
-        "low": "Past ishonch"
-      },
-      "viewDetails": "Batafsil",
-      "hideDetails": "Yashirish",
-      "whyRecommended": "Bu nima uchun tavsiya qilindi",
-      "keyFactors": "Asosiy omillar",
-      "yourStrengths": "Sizning kuchli tomonlaringiz",
-      "considerations": "Tavsiyalar",
-      "careerPaths": "Martaba yo'llari",
-      "keySkills": "Asosiy ko'nikmalar"
-    }
+        "high": "Yuqori moslik ({count} omil).",
+        "medium": "O‘rtacha moslik ({count} omil).",
+        "low": "Past moslik ({count} omil)."
+      }
+    },
+    "whyRecommended": "Nima uchun tavsiya qilindi",
+    "keyFactors": "Asosiy omillar",
+    "yourStrengths": "Sizning kuchli tomonlaringiz",
+    "considerations": {
+      "title": "E’tibor berish kerak",
+      "noCareer": "Bu yo‘nalish sizning martaba maqsadlaringizga to‘liq mos kelmasligi mumkin.",
+      "noSkills": "Ushbu soha uchun zarur bo‘lgan asosiy ko‘nikmalarni yanada rivojlantirish talab qilinishi mumkin.",
+      "fewMatches": "Bu tavsiya kam sonli mos omillarga asoslangan. Qo‘shimcha o‘rganish tavsiya etiladi."
+    },
+    "careerPaths": "Martaba yo‘llari",
+    "keySkills": "Asosiy ko‘nikmalar",
+    "viewDetails": "Batafsil",
+    "hideDetails": "Yashirish"
+   }
   },
   "dashboard": {
+    "nav": {
+      "signOut": "Chiqish"
+    },
     "welcome": "Qaytganingizdan xursandmiz",
     "subtitle": "Baholash tarixingizni ko'ring va yangi martaba yo'li baholashlarini o'tkazing.",
     "stats": {

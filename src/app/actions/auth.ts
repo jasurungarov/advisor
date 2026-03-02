@@ -75,14 +75,10 @@ export async function registerUser(formData: {
         errors: validationResult.error.flatten().fieldErrors,
       };
     }
-
     const { name, email, password } = validationResult.data;
 
-    // Get database connection (default database from mongodb.ts)
     const db = await getDatabase();
     const usersCollection = db.collection<User>(COLLECTIONS.USERS);
-
-    // Check if user already exists
     const existingUser = await usersCollection.findOne({
       email: email.toLowerCase(),
     });

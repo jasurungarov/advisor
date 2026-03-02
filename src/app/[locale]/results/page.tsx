@@ -102,7 +102,8 @@ export default function ResultsPage() {
       </div>
 
       {/* Header */}
-      <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md container mx-auto px-4 py-4 flex justify-between items-center border-b">
+      <header className="fixed top-6 inset-x-0 z-50 flex justify-center">
+        <div className='flex justify-between w-[95%] max-w-7xl px-6 py-3 rounded-2xl glass-navbar transition-all duration-300'>
         <Link
           href="/"
           className="inline-flex items-center gap-2 hover:text-brand-500 transition-colors"
@@ -122,12 +123,13 @@ export default function ResultsPage() {
             {t('retakeAssessment')}
           </Button>
         </div>
+        </div>
       </header>
 
       {/* Main Content */}
-      <main className="container mx-auto px-4 py-8 mt-18">
+      <main className="container mx-auto px-4 py-8">
         {/* Title Section */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 mt-18">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-900 text-brand-50 text-sm font-medium mb-8 shadow-lg shadow-brand-900/20 dark:bg-brand-500/20 dark:text-brand-100 border border-primary">
             <Trophy className="w-4 h-4 text-gold"/>
             {t('badge')}
@@ -142,7 +144,7 @@ export default function ResultsPage() {
 
         {/* Results Summary */}
         {result && (
-          <div className="mb-8 p-4 rounded-xl bg-brand-100/50 border border-brand-500/20 max-w-2xl mx-auto ">
+          <div className="mb-8 p-4 rounded-xl dark:bg-[#0e4a38]/80 border border-brand-500/20 max-w-2xl mx-auto ">
             <div className="flex items-center gap-3 ">
               <Sparkles className="w-5 h-5 text-brand-700" />
               <p className="text-sm text-brand-900">

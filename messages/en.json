@@ -269,40 +269,69 @@
       }
     }
   },
-  "results": {
-    "badge": "Your Personalized Results",
-    "title": "Top Recommended Specializations",
-    "subtitle": "Based on your interests, skills, personality, and career goals, here are the specializations that best match your profile.",
-    "analysisNote": "Our expert system analyzed your responses using {count} weighted rules to generate these recommendations. Click on each card to see detailed explanations.",
-    "retakeAssessment": "Retake Assessment",
-    "backToHome": "Back to Home",
-    "notSatisfied": "Not satisfied with the results? You can retake the assessment or explore more options.",
-    "generatedAt": "Generated at",
-    "disclaimer": "This recommendation is based on a rule-based expert system analysis. Your final decision should also consider other factors like personal circumstances, market trends, and professional advice.",
-    "error": {
-      "title": "Oops!",
-      "noResults": "No results found. Please complete the questionnaire first.",
-      "takeQuestionnaire": "Take the Questionnaire"
-    },
-    "loading": "Loading your recommendations...",
-    "card": {
-      "match": "Match",
-      "confidence": {
-        "high": "High Confidence",
-        "medium": "Medium Confidence",
-        "low": "Low Confidence"
-      },
-      "viewDetails": "View Details",
-      "hideDetails": "Hide Details",
-      "whyRecommended": "Why This Was Recommended",
-      "keyFactors": "Key Factors",
-      "yourStrengths": "Your Strengths",
-      "considerations": "Considerations",
-      "careerPaths": "Career Paths",
-      "keySkills": "Key Skills"
-    }
+"results": {
+  "badge": "Your Personalized Results",
+  "title": "Top Recommended Specializations",
+  "subtitle": "Based on your interests, skills, personality, and career goals, here are the specializations that best match your profile.",
+  "analysisNote": "Our expert system analyzed your responses using {count} weighted rules to generate these recommendations. Click on each card to see detailed explanations.",
+  "retakeAssessment": "Retake Assessment",
+  "backToHome": "Back to Home",
+  "notSatisfied": "Not satisfied with the results? You can retake the assessment or explore more options.",
+  "generatedAt": "Generated at",
+  "disclaimer": "This recommendation is based on a rule-based expert system analysis. Your final decision should also consider other factors like personal circumstances, market trends, and professional advice.",
+  "error": {
+    "title": "Oops!",
+    "noResults": "No results found. Please complete the questionnaire first.",
+    "takeQuestionnaire": "Take the Questionnaire"
   },
+  "loading": "Loading your recommendations...",
+  "card": {
+    "match": "Match",
+    "confidence": {
+      "high": "High Confidence",
+      "medium": "Medium Confidence",
+      "low": "Low Confidence"
+    },
+    "strength": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "average": "Average",
+      "strong": "Strong"
+    },
+    "category": {
+      "career": "Career",
+      "interests": "Interests",
+      "skills": "Skills",
+      "personality": "Personality"
+    },
+    "summaryTemplate": {
+      "start": "{specName} is a {strength} match for you.",
+      "category": "{category} factors strongly support this recommendation.",
+      "confidence": {
+        "high": "High alignment ({count} factors).",
+        "medium": "Moderate alignment ({count} factors).",
+        "low": "Limited alignment ({count} factors)."
+      }
+    },
+    "whyRecommended": "Why This Was Recommended",
+    "keyFactors": "Key Factors",
+    "yourStrengths": "Your Strengths",
+    "considerations": {
+      "title": "Considerations",
+      "noCareer": "This specialization may not fully align with your stated career goals.",
+      "noSkills": "You may need to further develop key skills required for this field.",
+      "fewMatches": "This recommendation is based on a limited number of matching factors. Additional research is advised."
+    },
+    "careerPaths": "Career Paths",
+    "keySkills": "Key Skills",
+    "viewDetails": "View Details",
+    "hideDetails": "Hide Details"
+  }
+ },
   "dashboard": {
+    "nav": {
+       "signOut": "Sign Out"
+    },
     "welcome": "Welcome back",
     "subtitle": "View your assessment history and take new career path assessments.",
     "stats": {

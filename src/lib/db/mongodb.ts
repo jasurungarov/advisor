@@ -27,9 +27,9 @@ if (process.env.NODE_ENV === 'development') {
   clientPromise = client.connect();
 }
 
-export async function getDatabase(dbName?: string): Promise<Db> {
+export async function getDatabase(): Promise<Db> {
   const client = await clientPromise;
-  return client.db(dbName);
+  return client.db("ungarovai");
 }
 
 export const COLLECTIONS = {
