@@ -68,7 +68,7 @@ export default async function DashboardLayout({
     <MobileSidebar params={params} />
   </div>
 
-  <main className="flex-1 p-4 w-full mt-24">
+  <main className="flex-1 mt-16">
     {children}
   </main>
 

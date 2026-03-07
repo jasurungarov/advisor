@@ -134,7 +134,7 @@ function Page() {
         </div>
       </div>
 
-      <Card>
+      <Card className='bg-body'>
         <CardContent>
           <form onSubmit={handleUpdate} className="space-y-4">
             <div className='space-y-2'>

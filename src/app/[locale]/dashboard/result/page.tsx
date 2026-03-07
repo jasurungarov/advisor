@@ -30,7 +30,7 @@ async function Page({
 
 
   return (
-    <div className="mx-auto top-0">
+    <div className="mx-auto top-0 mt-12">
       <div className="relative flex items-center justify-center mb-6">
         <Link href="/dashboard" title='back' className="absolute left-0 flex items-center text-brand-700 hover:text-brand-900 transition-colors">
           <FaAngleLeft className="w-6 h-6" />
