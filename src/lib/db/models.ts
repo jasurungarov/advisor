@@ -18,6 +18,7 @@ export interface User {
   image?: string;
   createdAt: Date;
   updatedAt: Date;
+  username: string; // unique username for profile URL
 }
 
 /**

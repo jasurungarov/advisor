@@ -62,8 +62,9 @@ async function HowIt() {
           <div className="text-center mt-12">
             <Link href="/questionnaire">
               <Button
+                variant="outline"
                 size="lg"
-                className="gap-2 dark:bg-primary/20 bg-brand-500 text-brand-900 font-semibold hover:bg-brand-700 shadow-brand-500/30 border border-primary transition-shadow duration-300 hover:shadow-[0_0_30px_rgba(0,0,0,0.18)] dark:shadow-primary dark:hover:shadow-primary">
+                className="gap-2 rounded-full dark:bg-primary/20 bg-brand-500 text-brand-900 font-semibold hover:bg-brand-700 shadow-brand-500/30 border border-primary transition-shadow duration-300 hover:shadow-[0_0_30px_rgba(0,0,0,0.18)] dark:shadow-primary dark:hover:shadow-primary">
                 <Users className="w-5 h-5" />
                 {t("landing.cta")}
               </Button>

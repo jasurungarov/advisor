@@ -8,7 +8,7 @@ import { getMessages } from 'next-intl/server'
 import { Geist, Geist_Mono, Lora } from "next/font/google"
 import { notFound } from 'next/navigation'
 import "../globals.css"
-import { toast } from 'sonner';
+import { toast, Toaster } from 'sonner';
 
 const lora = Lora({
   subsets: ["latin"],
@@ -132,6 +132,7 @@ export default async function RootLayout({
           <NextIntlClientProvider messages={messages}>
             {children}
           </NextIntlClientProvider>
+          <Toaster richColors  position="top-center" />
           
         </ThemeProvider>
       </body>

@@ -480,5 +480,40 @@
     "loading": "Yuklanmoqda...",
     "error": "Xatolik yuz berdi",
     "tryAgain": "Qayta urinish"
+  },
+  "last": {
+      "title": "So‘nggi baholash",
+      "subtitle": "Eng so‘nggi karyera yo‘nalishini aniqlash baholash natijalarini ko‘rib chiqing.",
+      "noAssessment": {
+        "title": "Baholashlar topilmadi",
+        "subtitle": "Shaxsiy tavsiyalarni ko‘rish uchun baholashdan o‘ting!",
+        "button": "Baholashni boshlash"
+      }
+    },
+    "profile": {
+    "title": "Hisob sozlamalari",
+    "subtitle": "Shaxsiy malumotlaringiz va parolingizni yangilashingiz mumkin",
+    "account": {
+      "name": "Ism",
+      "email": "Email Manzil",
+      "password": "Joriy Parol",
+      "newPassword": "Yangi Parol",
+      "updateButton": "Malumotlaringiz Yangilandi!",
+      "updating": "Malumotlaringiz Yangilanmoqda...",
+      "updateSaccess": "Yangilash",
+
+      "error":"Xatolik yuz berdi",
+      "success":"Malumotlaringiz Yangilandi",
+      "serverErorr": "Server bilan bog'lanishda xatolik"
+    },
+    "dangerZone": {
+      "title": "Xavli Xudud",
+      "subtitle": "Hisobingizni butunlay ochirib tashlash",
+      "deleteAccount": {
+        "button": "Hisobni ochirish",
+        "confirmMessage": "Hisobingizni o'chirib tashlamoqchimisiz? Bu amalni ortga qaytarib bo'lmaydi!",
+        "deleted": "Hisob o'chirildi"
+      }
+    }
   }
 }

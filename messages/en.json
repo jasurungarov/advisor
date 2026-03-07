@@ -3,7 +3,7 @@
     "signIn": "Sign In",
     "signUp": "Sign Up",
     "dashboard": "Dashboard",
-    "signOut": "Sign Out"
+    "signOut": "Log Out"
   },
   "landing": {
     "badge": "Rule-Based Expert System",
@@ -330,7 +330,7 @@
  },
   "dashboard": {
     "nav": {
-       "signOut": "Sign Out"
+       "signOut": "Log Out"
     },
     "welcome": "Welcome back",
     "subtitle": "View your assessment history and take new career path assessments.",
@@ -480,5 +480,34 @@
     "loading": "Loading...",
     "error": "An error occurred",
     "tryAgain": "Try Again"
+  },
+
+  "last":{
+    "title": "Last Assessment",
+    "subtitle": "Review the results of your most recent career path assessment.",
+    "noAssessment": {
+      "title": "No assessments found",
+      "subtitle": "Take an assessment to see your personalized recommendations!",
+      "button": "Start Assessment"
+    }
+  },
+  "profile": {
+    "title": "Your Profile",
+    "subtitle": "Manage your account settings and view your assessment history.",
+    "account": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "password": "Current Password",
+      "updateButton": "Update Profile",
+      "updating": "Updating profile..."
+    },
+    "dangerZone": {
+      "title": "Danger Zone",
+      "deleteAccount": {
+        "button": "Delete Account",
+        "confirmMessage": "Are you sure you want to delete your account? This action cannot be undone.",
+        "deleting": "Deleting account..."
+      }
+    }
   }
 }
