@@ -491,25 +491,31 @@
       "button": "Start Assessment"
     }
   },
-  "profile": {
-    "title": "Your Profile",
-    "subtitle": "Manage your account settings and view your assessment history.",
-    "account": {
-      "name": "Full Name",
-      "email": "Email Address",
-      "password": "Current Password",
-      "updateButton": "Update Profile",
-      "updating": "Updating profile..."
-    },
-    "dangerZone": {
-      "title": "Danger Zone",
-      "deleteAccount": {
-        "button": "Delete Account",
-        "confirmMessage": "Are you sure you want to delete your account? This action cannot be undone.",
-        "deleting": "Deleting account..."
-      }
-    }
+ "profile": {
+  "title": "Account Settings",
+  "subtitle": "You can update your personal information and password",
+  "account": {
+    "name": "Name",
+    "email": "Email Address",
+    "password": "Current Password",
+    "newPassword": "New Password",
+    "updateButton": "Your Information Has Been Updated!",
+    "updating": "Updating Your Information...",
+    "updateSaccess": "Update",
+    "error": "An error occurred",
+    "success": "Your Information Has Been Updated",
+    "serverErorr": "Error connecting to server"
   },
+  "dangerZone": {
+    "title": "Danger Zone",
+    "subtitle": "Permanently delete your account",
+    "deleteAccount": {
+      "button": "Delete Account",
+      "confirmMessage": "Are you sure you want to delete your account? This action cannot be undone!",
+      "deleted": "Account deleted"
+    }
+  }
+},
   "more": {
     "badge": "Rule-Based Expert System",
     "title": "About",

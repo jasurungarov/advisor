@@ -64,11 +64,11 @@ export default async function DashboardLayout({
 
    <div className="flex flex-col mx-auto w-full p-6 md:hidden">
 
-  <div className="sticky top-26 flex justify-center mx-auto h-max glass-navbar rounded-full">
+  <div className="sticky top-26 flex justify-center mx-auto h-max mb-4">
     <MobileSidebar params={params} />
   </div>
 
-  <main className="flex-1 mt-16">
+  <main className="flex-1 mt-20">
     {children}
   </main>
 

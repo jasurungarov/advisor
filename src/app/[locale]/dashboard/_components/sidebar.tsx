@@ -66,7 +66,7 @@ export default async function Sidebar({
           </Card>
         </Link>
 
-        <Link href={`/${locale}/dashboard/last`} className='block'>
+  
           <Card className="border border-primary dark:bg-[#0e4a38] transition-shadow duration-300 hover:shadow-[0_0_30px_rgba(0,0,0,0.18)] dark:shadow-primary dark:hover:shadow-primary">
             <CardContent>
               <div className="flex items-center">
@@ -82,7 +82,6 @@ export default async function Sidebar({
               </div>
             </CardContent>
           </Card>
-        </Link>
 
         </aside>
         </>

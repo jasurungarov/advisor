@@ -15,8 +15,7 @@ import AuthButtons from "./auth-buttons";
 export default function Header({ session }: { session: any }) {
   return (
     <header className="fixed top-6 inset-x-0 z-50 flex justify-center">
-      <div
-        className="w-[95%] max-w-7xl px-6 py-3 rounded-2xl glass-navbar transition-all duration-300">
+      <div className="w-[95%] max-w-7xl px-6 py-3 rounded-2xl glass-navbar transition-all duration-300">
         <div className="flex items-center justify-between">
           <Logo />
 
@@ -37,18 +36,9 @@ export default function Header({ session }: { session: any }) {
                 <button
                   className="
                     w-9 h-9
-                    rounded-xl
-                    flex items-center justify-center
-
-                    bg-white/10
-                    backdrop-blur-lg
-                    border border-white/20
-
-                    hover:bg-white/20
-                    transition
-                  "
+                    flex items-center justify-center"
                   aria-label="Open menu">
-                  <Menu className="w-5 h-5 text-white" />
+                  <Menu className="w-5 h-5" />
                 </button>
               </DropdownMenuTrigger>
 
