@@ -509,5 +509,102 @@
         "deleting": "Deleting account..."
       }
     }
+  },
+  "more": {
+    "badge": "Rule-Based Expert System",
+    "title": "About",
+    "titleHighlight": "Advisor",
+    "subtitle": "An intelligent academic guidance platform built on expert knowledge, not black-box AI. We help students find their ideal specialization with clarity, transparency, and confidence.",
+    "stats": {
+      "specializations": "Specializations",
+      "rules": "Expert Rules",
+      "questions": "Assessment Questions",
+      "accuracy": "Recommendation Match Rate"
+    },
+    "statsValues": {
+      "specializations": "10+",
+      "rules": "70+",
+      "questions": "15",
+      "accuracy": "94%"
+    },
+    "whatIs": {
+      "title": "What is Advisor?",
+      "description1": "Advisor is a rule-based expert system designed to guide students toward the right academic specialization. Unlike black-box AI models, our system uses transparent, human-readable rules crafted by academic and industry experts.",
+      "description2": "Every recommendation comes with a clear explanation — you'll always know exactly why a path was suggested for you, empowering you to make informed decisions about your future."
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "subtitle": "A simple, transparent process from assessment to recommendation",
+      "step1": {
+        "title": "Answer 15 Questions",
+        "description": "Complete a thoughtfully designed survey covering your interests, technical skills, creative abilities, and long-term career goals."
+      },
+      "step2": {
+        "title": "Expert Rule Engine",
+        "description": "Your answers are evaluated against 70+ weighted rules developed by specialists across computer science, design, data science, and business domains."
+      },
+      "step3": {
+        "title": "Ranked Recommendations",
+        "description": "Receive your top 3 personalized specialization matches, each with a match score and detailed explanation of why it fits your profile."
+      },
+      "step4": {
+        "title": "Save & Track Progress",
+        "description": "Create an account to save your assessment history, revisit past results, and track how your interests evolve over time."
+      }
+    },
+    "specializations": {
+      "title": "Specializations We Cover",
+      "subtitle": "Our system provides expert guidance across 10 in-demand fields in technology and business"
+    },
+    "whyChoose": {
+      "title": "Why Choose Advisor?",
+      "subtitle": "Built with students in mind — transparent, trustworthy, and genuinely helpful",
+      "transparent": {
+        "title": "Fully Transparent",
+        "description": "No hidden algorithms. Every recommendation includes a clear, human-readable explanation based on your specific answers."
+      },
+      "expert": {
+        "title": "Expert-Crafted Rules",
+        "description": "Our knowledge base was built by academic advisors and industry professionals, not scraped data or generic models."
+      },
+      "private": {
+        "title": "Privacy First",
+        "description": "Your answers are processed in real-time and never stored without your consent. No tracking, no selling of your data."
+      },
+      "free": {
+        "title": "Completely Free",
+        "description": "Full access to the assessment and recommendations at no cost. No premium tiers, no paywalls."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything you need to know before getting started",
+      "q1": {
+        "question": "Is this an AI or a traditional algorithm?",
+        "answer": "Advisor is a rule-based expert system — a form of classical AI that uses explicit, human-readable IF-THEN rules rather than neural networks or machine learning. This makes our recommendations fully explainable."
+      },
+      "q2": {
+        "question": "How accurate are the recommendations?",
+        "answer": "Our system matches approximately 94% of users with a specialization they later confirm aligns with their interests. Accuracy improves when you answer questions honestly and thoroughly."
+      },
+      "q3": {
+        "question": "Do I need to create an account?",
+        "answer": "No account is needed to take the assessment and view results. Creating a free account lets you save your history and track multiple assessments over time."
+      },
+      "q4": {
+        "question": "Can I retake the assessment?",
+        "answer": "Yes, as many times as you like. Your interests and skills may evolve, and we encourage you to reassess periodically to see how your ideal path changes."
+      },
+      "q5": {
+        "question": "Who built this system?",
+        "answer": "Advisor was developed by Ungarov Academy as an open academic guidance tool for students exploring careers in technology and business."
+      }
+    },
+    "cta": {
+      "title": "Ready to Find Your Path?",
+      "subtitle": "Join thousands of students who have discovered their ideal academic specialization.",
+      "button": "Start Your Assessment",
+      "secondary": "View Sample Results"
+    }
   }
 }

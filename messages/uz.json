@@ -114,12 +114,30 @@
           "primary-interest": {
             "text": "Ushbu sohalardan qaysi biri sizni eng ko'p qiziqtiradi?",
             "options": {
-              "building-software": { "label": "Dasturiy ta'minot va ilovalarni yaratish", "description": "Haqiqiy muammolarni hal qiladigan dasturlarni yaratish" },
-              "analyzing-data": { "label": "Ma'lumotlarni tahlil qilish va qonuniyatlarni topish", "description": "Raqamlar va statistika bilan ishlash" },
-              "designing-interfaces": { "label": "Chiroyli interfeyslarni loyihalash", "description": "Ko'zga yoqimli va ishlatish uchun qulay dizaynlarni yaratish" },
-              "solving-puzzles": { "label": "Murakkab mantiqiy jumboqlarni yechish", "description": "Qiyin muammolarni bo'laklarga ajratish" },
-              "protecting-systems": { "label": "Tizimlarni tahdidlardan himoya qilish", "description": "Xavfsizlik va mudofaa strategiyalari" },
-              "managing-projects": { "label": "Loyihalar va jamoalarni boshqarish", "description": "Liderlik va muvofiqlashtirish" }
+              "building-software": {
+                "label": "Dasturiy ta'minot va ilovalarni yaratish",
+                "description": "Haqiqiy muammolarni hal qiladigan dasturlarni yaratish"
+              },
+              "analyzing-data": {
+                "label": "Ma'lumotlarni tahlil qilish va qonuniyatlarni topish",
+                "description": "Raqamlar va statistika bilan ishlash"
+              },
+              "designing-interfaces": {
+                "label": "Chiroyli interfeyslarni loyihalash",
+                "description": "Ko'zga yoqimli va ishlatish uchun qulay dizaynlarni yaratish"
+              },
+              "solving-puzzles": {
+                "label": "Murakkab mantiqiy jumboqlarni yechish",
+                "description": "Qiyin muammolarni bo'laklarga ajratish"
+              },
+              "protecting-systems": {
+                "label": "Tizimlarni tahdidlardan himoya qilish",
+                "description": "Xavfsizlik va mudofaa strategiyalari"
+              },
+              "managing-projects": {
+                "label": "Loyihalar va jamoalarni boshqarish",
+                "description": "Liderlik va muvofiqlashtirish"
+              }
             }
           },
           "secondary-interests": {
@@ -138,10 +156,22 @@
           "learning-preference": {
             "text": "Yangi narsalarni qanday o'rganishni afzal ko'rasiz?",
             "options": {
-              "hands-on": { "label": "Amaliy tajribalar", "description": "Sinov va xato, loyihalarni qurish" },
-              "structured-courses": { "label": "Tuzilgan kurslar va darslar", "description": "O'quv dasturini bosqichma-bosqich bajarish" },
-              "reading-docs": { "label": "Hujjatlar va kitoblarni o'qish", "description": "Yozma materiallarga chuqur kirishish" },
-              "collaboration": { "label": "Boshqalar bilan hamkorlik", "description": "Muhokama va jamoaviy ish orqali o'rganish" }
+              "hands-on": {
+                "label": "Amaliy tajribalar",
+                "description": "Sinov va xato, loyihalarni qurish"
+              },
+              "structured-courses": {
+                "label": "Tuzilgan kurslar va darslar",
+                "description": "O'quv dasturini bosqichma-bosqich bajarish"
+              },
+              "reading-docs": {
+                "label": "Hujjatlar va kitoblarni o'qish",
+                "description": "Yozma materiallarga chuqur kirishish"
+              },
+              "collaboration": {
+                "label": "Boshqalar bilan hamkorlik",
+                "description": "Muhokama va jamoaviy ish orqali o'rganish"
+              }
             }
           }
         }
@@ -152,19 +182,31 @@
         "questions": {
           "programming-level": {
             "text": "Dasturlash mahoratingizni qanday baholaysiz?",
-            "labels": { "min": "To'liq yangi boshlovchi", "max": "Ilg'or/Professional" }
+            "labels": {
+              "min": "To'liq yangi boshlovchi",
+              "max": "Ilg'or/Professional"
+            }
           },
           "math-level": {
             "text": "Matematika va statistika bilan ishlash sizga qanchalik qulay?",
-            "labels": { "min": "Qulay emas", "max": "Juda qulay" }
+            "labels": {
+              "min": "Qulay emas",
+              "max": "Juda qulay"
+            }
           },
           "design-level": {
             "text": "Vizual/dizayn mahoratingizni qanday baholaysiz?",
-            "labels": { "min": "Mening kuchli tomonim emas", "max": "Juda ijodiy" }
+            "labels": {
+              "min": "Mening kuchli tomonim emas",
+              "max": "Juda ijodiy"
+            }
           },
           "communication-level": {
             "text": "Sizning muloqot va taqdimot ko'nikmalaringiz qanchalik kuchli?",
-            "labels": { "min": "Yaxshilashga muhtoj", "max": "Mukammal so'zlovchi" }
+            "labels": {
+              "min": "Yaxshilashga muhtoj",
+              "max": "Mukammal so'zlovchi"
+            }
           },
           "existing-skills": {
             "text": "Ushbu ko'nikmalardan qaysi biri bo'yicha tajribangiz bor?",
@@ -188,32 +230,68 @@
           "work-style": {
             "text": "Qanday ishlashni afzal ko'rasiz?",
             "options": {
-              "solo": { "label": "Mustaqil, o'z vazifalarimga e'tibor qaratib", "description": "Men yolg'iz eng yaxshi ishlayman" },
-              "small-team": { "label": "Kichik, ahil jamoada", "description": "Ishonchli hamkasblar bilan hamkorlik" },
-              "large-team": { "label": "Katta, xilma-xil jamoada", "description": "Katta tashkilotning bir qismi" },
-              "mixed": { "label": "Yakkaxon va jamoaviy ish aralashmasi", "description": "Vazifaga qarab moslashuvchanlik" }
+              "solo": {
+                "label": "Mustaqil, o'z vazifalarimga e'tibor qaratib",
+                "description": "Men yolg'iz eng yaxshi ishlayman"
+              },
+              "small-team": {
+                "label": "Kichik, ahil jamoada",
+                "description": "Ishonchli hamkasblar bilan hamkorlik"
+              },
+              "large-team": {
+                "label": "Katta, xilma-xil jamoada",
+                "description": "Katta tashkilotning bir qismi"
+              },
+              "mixed": {
+                "label": "Yakkaxon va jamoaviy ish aralashmasi",
+                "description": "Vazifaga qarab moslashuvchanlik"
+              }
             }
           },
           "problem-approach": {
             "text": "Murakkab muammoga duch kelganda, odatda:",
             "options": {
-              "analytical": { "label": "Uni mantiqiy bosqichlarga bo'lasiz", "description": "Tizimli, uslubiy yondashuv" },
-              "creative": { "label": "Ijodiy, noodatiy yechimlarni qidirasiz", "description": "Qolipdan tashqari fikrlash" },
-              "research": { "label": "Boshqalar uni qanday hal qilganini o'rganasiz", "description": "Mavjud yechimlardan o'rganish" },
-              "experiment": { "label": "Darhol tajriba o'tkazishni boshlaysiz", "description": "Amaliy o'rganish, tez takrorlash" }
+              "analytical": {
+                "label": "Uni mantiqiy bosqichlarga bo'lasiz",
+                "description": "Tizimli, uslubiy yondashuv"
+              },
+              "creative": {
+                "label": "Ijodiy, noodatiy yechimlarni qidirasiz",
+                "description": "Qolipdan tashqari fikrlash"
+              },
+              "research": {
+                "label": "Boshqalar uni qanday hal qilganini o'rganasiz",
+                "description": "Mavjud yechimlardan o'rganish"
+              },
+              "experiment": {
+                "label": "Darhol tajriba o'tkazishni boshlaysiz",
+                "description": "Amaliy o'rganish, tez takrorlash"
+              }
             }
           },
           "detail-vs-bigpicture": {
             "text": "Sizni kim yaxshiroq tasvirlaydi?",
             "options": {
-              "detail-oriented": { "label": "Mayda-chuydasigacha e'tibor beradigan perfektsionist", "description": "Men har bir detalning to'g'ri bo'lishiga e'tibor qarataman" },
-              "big-picture": { "label": "Umumiy ko'rinishni ko'radigan vizyoner", "description": "Men umumiy strategiya va qarashga e'tibor qarataman" },
-              "balanced": { "label": "Muvozanatli - vaziyatga qarab", "description": "Men ikki rejim o'rtasida almashishim mumkin" }
+              "detail-oriented": {
+                "label": "Mayda-chuydasigacha e'tibor beradigan perfektsionist",
+                "description": "Men har bir detalning to'g'ri bo'lishiga e'tibor qarataman"
+              },
+              "big-picture": {
+                "label": "Umumiy ko'rinishni ko'radigan vizyoner",
+                "description": "Men umumiy strategiya va qarashga e'tibor qarataman"
+              },
+              "balanced": {
+                "label": "Muvozanatli - vaziyatga qarab",
+                "description": "Men ikki rejim o'rtasida almashishim mumkin"
+              }
             }
           },
           "risk-tolerance": {
             "text": "Tavakkal qilish va yangi narsalarni sinab ko'rish haqida qanday fikrdasiz?",
-            "labels": { "min": "Barqarorlikni afzal ko'raman", "max": "Tajriba o'tkazishni yaxshi ko'raman" }
+            "labels": {
+              "min": "Barqarorlikni afzal ko'raman",
+              "max": "Tajriba o'tkazishni yaxshi ko'raman"
+            }
           }
         }
       },
@@ -224,11 +302,26 @@
           "work-environment": {
             "text": "Qanday ish muhiti sizga ko'proq yoqadi?",
             "options": {
-              "startup": { "label": "Tez rivojlanayotgan startap", "description": "Yuqori xavf, mukofot, ko'p rollar" },
-              "corporate": { "label": "Tashkil etilgan korporatsiya", "description": "Barqarorlik, aniq martaba yo'llari, resurslar" },
-              "freelance": { "label": "Frilans / O'z-o'zini ish bilan ta'minlash", "description": "Mustaqillik, turli loyihalar" },
-              "research": { "label": "Tadqiqot instituti / Akademiya", "description": "Innovatsiyalar va bilimlarga e'tibor" },
-              "government": { "label": "Hukumat / Notijorat", "description": "Jamoat xizmati, ijtimoiy ta'sir" }
+              "startup": {
+                "label": "Tez rivojlanayotgan startap",
+                "description": "Yuqori xavf, mukofot, ko'p rollar"
+              },
+              "corporate": {
+                "label": "Tashkil etilgan korporatsiya",
+                "description": "Barqarorlik, aniq martaba yo'llari, resurslar"
+              },
+              "freelance": {
+                "label": "Frilans / O'z-o'zini ish bilan ta'minlash",
+                "description": "Mustaqillik, turli loyihalar"
+              },
+              "research": {
+                "label": "Tadqiqot instituti / Akademiya",
+                "description": "Innovatsiyalar va bilimlarga e'tibor"
+              },
+              "government": {
+                "label": "Hukumat / Notijorat",
+                "description": "Jamoat xizmati, ijtimoiy ta'sir"
+              }
             }
           },
           "career-priority": {
@@ -245,11 +338,26 @@
           "five-year-vision": {
             "text": "5 yildan keyin o'zingizni qayerda ko'rasiz?",
             "options": {
-              "technical-expert": { "label": "O'z sohamda chuqur texnik ekspert", "description": "Katta muhandis, me'mor yoki mutaxassis" },
-              "team-lead": { "label": "Mutaxassislar jamoasini boshqarish", "description": "Menejer, jamoa rahbari yoki direktor" },
-              "entrepreneur": { "label": "O'z biznesimni yoki startapimni boshqarish", "description": "Ta'sischi, bosh direktor yoki maslahatchi" },
-              "researcher": { "label": "Ilg'or tadqiqotlarga hissa qo'shish", "description": "PhD, ilmiy xodim yoki akademik" },
-              "versatile": { "label": "Turli tajribaga ega ko'p qirrali mutaxassis", "description": "Ko'p tarmoqli rolni bajarish" }
+              "technical-expert": {
+                "label": "O'z sohamda chuqur texnik ekspert",
+                "description": "Katta muhandis, me'mor yoki mutaxassis"
+              },
+              "team-lead": {
+                "label": "Mutaxassislar jamoasini boshqarish",
+                "description": "Menejer, jamoa rahbari yoki direktor"
+              },
+              "entrepreneur": {
+                "label": "O'z biznesimni yoki startapimni boshqarish",
+                "description": "Ta'sischi, bosh direktor yoki maslahatchi"
+              },
+              "researcher": {
+                "label": "Ilg'or tadqiqotlarga hissa qo'shish",
+                "description": "PhD, ilmiy xodim yoki akademik"
+              },
+              "versatile": {
+                "label": "Turli tajribaga ega ko'p qirrali mutaxassis",
+                "description": "Ko'p tarmoqli rolni bajarish"
+              }
             }
           },
           "industry-preference": {
@@ -270,63 +378,63 @@
     }
   },
   "results": {
-  "badge": "Sizning shaxsiylashtirilgan natijalaringiz",
-  "title": "Eng ko‘p tavsiya etilgan mutaxassisliklar",
-  "subtitle": "Sizning qiziqishlaringiz, ko‘nikmalaringiz, shaxsiyatingiz va martaba maqsadlaringizga asoslanib, profilingizga eng mos keladigan mutaxassisliklar mana shu yerda.",
-  "analysisNote": "Bizning ekspert tizimimiz ushbu tavsiyalarni yaratish uchun {count} vaznli qoidalardan foydalanib, javoblaringizni tahlil qildi. Batafsil tushuntirishlarni ko‘rish uchun har bir kartani bosing.",
-  "retakeAssessment": "Qayta baholash",
-  "backToHome": "Bosh sahifaga",
-  "notSatisfied": "Natijalardan qoniqmadingizmi? Baholashni qayta o‘tishingiz yoki boshqa variantlarni o‘rganishingiz mumkin.",
-  "generatedAt": "Yaratilgan",
-  "disclaimer": "Ushbu tavsiya qoidalarga asoslangan ekspert tizimi tahliliga asoslangan. Yakuniy qaror qabul qilishda shaxsiy holatlar, bozor tendensiyalari va professional maslahatlarni ham hisobga olish kerak.",
-  "error": {
-    "title": "Voy!",
-    "noResults": "Natijalar topilmadi. Iltimos, avval so‘rovnomani to‘ldiring.",
-    "takeQuestionnaire": "So‘rovnomani to‘ldirish"
-  },
-  "loading": "Tavsiyalaringiz yuklanmoqda...",
-  "card": {
-    "match": "Moslik",
-    "confidence": {
-      "high": "Yuqori ishonch",
-      "medium": "O‘rtacha ishonch",
-      "low": "Past ishonch"
+    "badge": "Sizning shaxsiylashtirilgan natijalaringiz",
+    "title": "Eng ko‘p tavsiya etilgan mutaxassisliklar",
+    "subtitle": "Sizning qiziqishlaringiz, ko‘nikmalaringiz, shaxsiyatingiz va martaba maqsadlaringizga asoslanib, profilingizga eng mos keladigan mutaxassisliklar mana shu yerda.",
+    "analysisNote": "Bizning ekspert tizimimiz ushbu tavsiyalarni yaratish uchun {count} vaznli qoidalardan foydalanib, javoblaringizni tahlil qildi. Batafsil tushuntirishlarni ko‘rish uchun har bir kartani bosing.",
+    "retakeAssessment": "Qayta baholash",
+    "backToHome": "Bosh sahifaga",
+    "notSatisfied": "Natijalardan qoniqmadingizmi? Baholashni qayta o‘tishingiz yoki boshqa variantlarni o‘rganishingiz mumkin.",
+    "generatedAt": "Yaratilgan",
+    "disclaimer": "Ushbu tavsiya qoidalarga asoslangan ekspert tizimi tahliliga asoslangan. Yakuniy qaror qabul qilishda shaxsiy holatlar, bozor tendensiyalari va professional maslahatlarni ham hisobga olish kerak.",
+    "error": {
+      "title": "Voy!",
+      "noResults": "Natijalar topilmadi. Iltimos, avval so‘rovnomani to‘ldiring.",
+      "takeQuestionnaire": "So‘rovnomani to‘ldirish"
     },
-    "strength": {
-      "excellent": "Juda yuqori",
-      "good": "Yaxshi",
-      "average": "O‘rtacha",
-      "strong": "Kuchli"
-    },
-    "category": {
-      "career": "Martaba",
-      "interests": "Qiziqishlar",
-      "skills": "Ko‘nikmalar",
-      "personality": "Shaxsiyat"
-    },
-    "summaryTemplate": {
-      "start": "{specName} yo‘nalishi siz uchun {strength} darajada mos keladi.",
-      "category": "{category} omillari ushbu tanlovni qo‘llab-quvvatlaydi.",
+    "loading": "Tavsiyalaringiz yuklanmoqda...",
+    "card": {
+      "match": "Moslik",
       "confidence": {
-        "high": "Yuqori moslik ({count} omil).",
-        "medium": "O‘rtacha moslik ({count} omil).",
-        "low": "Past moslik ({count} omil)."
-      }
-    },
-    "whyRecommended": "Nima uchun tavsiya qilindi",
-    "keyFactors": "Asosiy omillar",
-    "yourStrengths": "Sizning kuchli tomonlaringiz",
-    "considerations": {
-      "title": "E’tibor berish kerak",
-      "noCareer": "Bu yo‘nalish sizning martaba maqsadlaringizga to‘liq mos kelmasligi mumkin.",
-      "noSkills": "Ushbu soha uchun zarur bo‘lgan asosiy ko‘nikmalarni yanada rivojlantirish talab qilinishi mumkin.",
-      "fewMatches": "Bu tavsiya kam sonli mos omillarga asoslangan. Qo‘shimcha o‘rganish tavsiya etiladi."
-    },
-    "careerPaths": "Martaba yo‘llari",
-    "keySkills": "Asosiy ko‘nikmalar",
-    "viewDetails": "Batafsil",
-    "hideDetails": "Yashirish"
-   }
+        "high": "Yuqori ishonch",
+        "medium": "O‘rtacha ishonch",
+        "low": "Past ishonch"
+      },
+      "strength": {
+        "excellent": "Juda yuqori",
+        "good": "Yaxshi",
+        "average": "O‘rtacha",
+        "strong": "Kuchli"
+      },
+      "category": {
+        "career": "Martaba",
+        "interests": "Qiziqishlar",
+        "skills": "Ko‘nikmalar",
+        "personality": "Shaxsiyat"
+      },
+      "summaryTemplate": {
+        "start": "{specName} yo‘nalishi siz uchun {strength} darajada mos keladi.",
+        "category": "{category} omillari ushbu tanlovni qo‘llab-quvvatlaydi.",
+        "confidence": {
+          "high": "Yuqori moslik ({count} omil).",
+          "medium": "O‘rtacha moslik ({count} omil).",
+          "low": "Past moslik ({count} omil)."
+        }
+      },
+      "whyRecommended": "Nima uchun tavsiya qilindi",
+      "keyFactors": "Asosiy omillar",
+      "yourStrengths": "Sizning kuchli tomonlaringiz",
+      "considerations": {
+        "title": "E’tibor berish kerak",
+        "noCareer": "Bu yo‘nalish sizning martaba maqsadlaringizga to‘liq mos kelmasligi mumkin.",
+        "noSkills": "Ushbu soha uchun zarur bo‘lgan asosiy ko‘nikmalarni yanada rivojlantirish talab qilinishi mumkin.",
+        "fewMatches": "Bu tavsiya kam sonli mos omillarga asoslangan. Qo‘shimcha o‘rganish tavsiya etiladi."
+      },
+      "careerPaths": "Martaba yo‘llari",
+      "keySkills": "Asosiy ko‘nikmalar",
+      "viewDetails": "Batafsil",
+      "hideDetails": "Yashirish"
+    }
   },
   "dashboard": {
     "nav": {
@@ -406,7 +514,6 @@
       "cs-technical-expert-goal": "Computer Science offers deep specialization paths to become a technical expert.",
       "cs-java-csharp-skills": "Your experience with Java or C# is valuable for traditional CS applications.",
       "cs-research-interest": "Your interest in research aligns with the theoretical aspects of Computer Science.",
-      
       "ds-primary-analyzing": "Your passion for analyzing data is the defining characteristic of Data Scientists.",
       "ds-high-math": "Your strong mathematics skills are essential for statistical analysis in Data Science.",
       "ds-python-skills": "Your Python experience is highly relevant as it is the primary language for Data Science.",
@@ -414,14 +521,12 @@
       "ds-finance-industry": "The finance industry heavily relies on Data Science for quantitative analysis.",
       "ds-detail-oriented": "Your attention to detail is crucial for accurate data analysis.",
       "ds-sql-skills": "Your SQL knowledge is essential for working with databases in Data Science.",
-
       "sec-primary-protecting": "Your drive to protect systems is the core motivation for Cybersecurity professionals.",
       "sec-security-industry": "Your interest in the security industry directly aligns with Cybersecurity.",
       "sec-analytical-approach": "Your analytical approach is essential for threat analysis and security audits.",
       "sec-detail-oriented": "Attention to detail is critical in Security - one oversight can be catastrophic.",
       "sec-government-interest": "Government organizations have high demand for Cybersecurity professionals.",
       "sec-puzzles-interest": "Security involves solving complex puzzles like an attacker would.",
-
       "web-websites-interest": "Your interest in websites directly aligns with Web Development.",
       "web-html-css-skills": "Your HTML/CSS experience is the foundation of Web Development.",
       "web-javascript-skills": "JavaScript is the essential language for modern Web Development.",
@@ -429,13 +534,11 @@
       "web-freelance-goal": "Web Development is one of the most accessible paths to freelancing.",
       "web-building-interest": "Web Development lets you build complete, working applications.",
       "web-ecommerce-industry": "E-commerce relies heavily on Web Development for online storefronts.",
-
       "mobile-apps-interest": "Your direct interest in mobile apps makes Mobile Development a natural fit.",
       "mobile-javascript-skills": "Your JavaScript skills can be applied to React Native mobile development.",
       "mobile-creative-approach": "Mobile apps require creative solutions for limited screen space.",
       "mobile-startup-goal": "Many startups focus on mobile-first products.",
       "mobile-entrepreneur-vision": "Mobile apps are a popular path for tech entrepreneurs.",
-
       "ux-primary-designing": "Your passion for designing interfaces is the core of UI/UX Design.",
       "ux-high-design-skills": "Your strong visual design skills are essential for UI/UX Design.",
       "ux-design-tools": "Your experience with design tools like Figma gives you a head start.",
@@ -443,7 +546,6 @@
       "ux-creativity-priority": "UI/UX Design offers exceptional creative freedom.",
       "ux-communication-skills": "UX designers need strong communication to advocate for users.",
       "ux-collaboration-learning": "UX Design involves extensive collaboration with stakeholders and users.",
-
       "ai-ml-interest": "Your direct interest in AI/ML is the foundation for this specialization.",
       "ai-high-math": "Advanced mathematics is essential for understanding AI algorithms.",
       "ai-python-skills": "Python is the primary language for AI/ML development.",
@@ -451,21 +553,18 @@
       "ai-researcher-vision": "AI offers excellent paths for research careers.",
       "ai-research-environment": "AI roles are common in research institutions and labs.",
       "ai-analyzing-interest": "AI heavily involves analyzing patterns in data.",
-
       "game-gaming-interest": "Your passion for gaming is the foundation for Game Development.",
       "game-java-csharp": "C# is the primary language for Unity game development.",
       "game-creative-approach": "Game Development combines technical skills with creative vision.",
       "game-design-skills": "Visual design skills enhance game aesthetics.",
       "game-industry-preference": "Direct alignment with the gaming industry.",
       "game-hands-on": "Game Development is highly practical and project-based.",
-
       "cloud-infra-interest": "Your interest in cloud infrastructure directly aligns with this field.",
       "cloud-automation-interest": "Your automation interest applies to infrastructure automation in DevOps.",
       "cloud-analytical-approach": "Cloud architecture requires systematic, analytical thinking.",
       "cloud-corporate-goal": "Large corporations have significant cloud infrastructure needs.",
       "cloud-high-salary-priority": "Cloud/DevOps engineers command high salaries due to demand.",
       "cloud-python-skills": "Python is widely used for cloud automation scripts.",
-
       "biz-primary-managing": "Your interest in management is the core of Business & IT Management.",
       "biz-business-tech-interest": "Your interest in business technology strategy aligns perfectly.",
       "biz-high-communication": "Strong communication is essential for IT management roles.",
@@ -482,15 +581,15 @@
     "tryAgain": "Qayta urinish"
   },
   "last": {
-      "title": "So‘nggi baholash",
-      "subtitle": "Eng so‘nggi karyera yo‘nalishini aniqlash baholash natijalarini ko‘rib chiqing.",
-      "noAssessment": {
-        "title": "Baholashlar topilmadi",
-        "subtitle": "Shaxsiy tavsiyalarni ko‘rish uchun baholashdan o‘ting!",
-        "button": "Baholashni boshlash"
-      }
-    },
-    "profile": {
+    "title": "So‘nggi baholash",
+    "subtitle": "Eng so‘nggi karyera yo‘nalishini aniqlash baholash natijalarini ko‘rib chiqing.",
+    "noAssessment": {
+      "title": "Baholashlar topilmadi",
+      "subtitle": "Shaxsiy tavsiyalarni ko‘rish uchun baholashdan o‘ting!",
+      "button": "Baholashni boshlash"
+    }
+  },
+  "profile": {
     "title": "Hisob sozlamalari",
     "subtitle": "Shaxsiy malumotlaringiz va parolingizni yangilashingiz mumkin",
     "account": {
@@ -501,9 +600,8 @@
       "updateButton": "Malumotlaringiz Yangilandi!",
       "updating": "Malumotlaringiz Yangilanmoqda...",
       "updateSaccess": "Yangilash",
-
-      "error":"Xatolik yuz berdi",
-      "success":"Malumotlaringiz Yangilandi",
+      "error": "Xatolik yuz berdi",
+      "success": "Malumotlaringiz Yangilandi",
       "serverErorr": "Server bilan bog'lanishda xatolik"
     },
     "dangerZone": {
@@ -514,6 +612,103 @@
         "confirmMessage": "Hisobingizni o'chirib tashlamoqchimisiz? Bu amalni ortga qaytarib bo'lmaydi!",
         "deleted": "Hisob o'chirildi"
       }
+    }
+  },
+  "more": {
+    "badge": "Qoidalarga asoslangan ekspert tizimi",
+    "title": "Haqida",
+    "titleHighlight": "Advisor",
+    "subtitle": "Qora quti sun'iy intellekt emas, balki ekspert bilimlariga asoslangan aqlli akademik yo'naltirish platformasi. Talabalar o'z ixtisosligini aniq va ishonchli tarzda topishlariga yordam beramiz.",
+    "stats": {
+      "specializations": "Ixtisosliklar",
+      "rules": "Ekspert qoidalari",
+      "questions": "Baholash savollari",
+      "accuracy": "Mos tavsiya darajasi"
+    },
+    "statsValues": {
+      "specializations": "10+",
+      "rules": "70+",
+      "questions": "15",
+      "accuracy": "94%"
+    },
+    "whatIs": {
+      "title": "Advisor nima?",
+      "description1": "Advisor — talabalarni to'g'ri akademik ixtisoslikka yo'naltirish uchun mo'ljallangan qoidalarga asoslangan ekspert tizimi. Qora quti AI modellaridan farqli o'laroq, bizning tizimimiz akademik va sanoat mutaxassislari tomonidan ishlab chiqilgan shaffof, inson tomonidan o'qiladigan qoidalardan foydalanadi.",
+      "description2": "Har bir tavsiya aniq tushuntirish bilan birga keladi — siz doimo qaysi yo'l siz uchun nima uchun taklif qilinganligini bilasiz va kelajagingiz haqida ongli qarorlar qabul qilishingizga yordam beradi."
+    },
+    "howItWorks": {
+      "title": "Qanday ishlaydi",
+      "subtitle": "Baholashdan tavsiyagacha oddiy va shaffof jarayon",
+      "step1": {
+        "title": "15 ta savol javoblang",
+        "description": "Qiziqishlaringiz, texnik ko'nikmalaringiz, ijodiy qobiliyatlaringiz va uzoq muddatli martaba maqsadlaringizni qamrab oluvchi so'rovni to'ldiring."
+      },
+      "step2": {
+        "title": "Ekspert qoidalar mexanizmi",
+        "description": "Javoblaringiz informatika, dizayn, ma'lumotlar fanlari va biznes sohalarining mutaxassislari tomonidan ishlab chiqilgan 70+ og'irlikdagi qoidalar asosida baholanadi."
+      },
+      "step3": {
+        "title": "Reytingli tavsiyalar",
+        "description": "Eng yaxshi 3 ta shaxsiylashtirilgan ixtisoslik moslamalarini, har birining mos ko'rsatkichi va profiliingizga nima uchun mos kelishining batafsil tushuntirishini oling."
+      },
+      "step4": {
+        "title": "Saqlash va kuzatish",
+        "description": "Baholash tarixingizni saqlash, o'tgan natijalarni qayta ko'rib chiqish va qiziqishlaringiz qanday rivojlanayotganini kuzatish uchun hisob yarating."
+      }
+    },
+    "specializations": {
+      "title": "Biz qamrab olgan ixtisosliklar",
+      "subtitle": "Tizimimiz texnologiya va biznesning 10 ta talabgir sohasi bo'yicha ekspert ko'rsatmalar beradi"
+    },
+    "whyChoose": {
+      "title": "Nima uchun Advisor-ni tanlash kerak?",
+      "subtitle": "Talabalar uchun qurilgan — shaffof, ishonchli va haqiqatan foydali",
+      "transparent": {
+        "title": "To'liq shaffof",
+        "description": "Yashirin algoritmlar yo'q. Har bir tavsiya sizning aniq javoblaringizga asoslangan aniq, inson tomonidan o'qiladigan tushuntirishni o'z ichiga oladi."
+      },
+      "expert": {
+        "title": "Ekspert tomonidan yaratilgan qoidalar",
+        "description": "Bilimlar bazamiz umumiy modellar yoki qirib olingan ma'lumotlar emas, balki akademik maslahatchilar va sanoat mutaxassislari tomonidan qurilgan."
+      },
+      "private": {
+        "title": "Maxfiylik birinchi o'rinda",
+        "description": "Javoblaringiz real vaqt rejimida qayta ishlanadi va roziligingizisiz saqlanmaydi. Kuzatish yo'q, ma'lumotlaringizni sotish yo'q."
+      },
+      "free": {
+        "title": "Mutlaqo bepul",
+        "description": "Baholash va tavsiyalarga to'liq kirish hech qanday xarajatsiz. Premium darajalar yo'q, to'siqlar yo'q."
+      }
+    },
+    "faq": {
+      "title": "Ko'p so'raladigan savollar",
+      "subtitle": "Boshlashdan oldin bilishingiz kerak bo'lgan hamma narsa",
+      "q1": {
+        "question": "Bu sun'iy intellektmi yoki an'anaviy algoritmmi?",
+        "answer": "Advisor — qoidalarga asoslangan ekspert tizimi. Neyron tarmoqlar yoki mashinani o'qitish o'rniga aniq, inson tomonidan o'qiladigan AGAR-UNDA qoidalaridan foydalanadi. Bu tavsiyalarimizni to'liq tushuntirib bo'ladigan qiladi."
+      },
+      "q2": {
+        "question": "Tavsiyalar qanchalik aniq?",
+        "answer": "Tizimimiz foydalanuvchilarning taxminan 94% ini keyinchalik qiziqishlariga mos kelishini tasdiqlaydigan ixtisoslik bilan moslaydi. Savollarni halol va to'liq javoblasangiz aniqlik ortadi."
+      },
+      "q3": {
+        "question": "Hisob yaratishim kerakmi?",
+        "answer": "Baholashni o'tkazish va natijalarni ko'rish uchun hisob kerak emas. Bepul hisob yaratish tarixingizni saqlash va bir nechta baholashlarni kuzatish imkonini beradi."
+      },
+      "q4": {
+        "question": "Baholashni qayta olishim mumkinmi?",
+        "answer": "Ha, xohlagan marta. Qiziqishlaringiz va ko'nikmalaringiz rivojlanishi mumkin, shuning uchun ideal yo'lingiz qanday o'zgarayotganini ko'rish uchun vaqti-vaqti bilan qayta baholashni tavsiya qilamiz."
+      },
+      "q5": {
+        "question": "Bu tizimni kim yaratdi?",
+        "answer": "Advisor texnologiya va biznesda martaba qidirayotgan talabalar uchun ochiq akademik yo'naltirish vositasi sifatida Ungarov Academy tomonidan ishlab chiqilgan."
+      }
+    },
+    "cta": {
+      "title": "Yo'lingizni topishga tayyormisiz?",
+      "subtitle": "O'zlarining ideal akademik ixtisosligini kashf etgan minglab talabalar safiga qo'shiling.",
+      "button": "Baholashni boshlang",
+      "secondary": "Namuna natijalarini ko'ring"
     }
   }
 }
