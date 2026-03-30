@@ -1,10 +1,3 @@
-/**
- * Authentication Server Actions
- * 
- * Server-side actions for user registration and authentication.
- * These actions handle secure operations like password hashing.
- */
-
 'use server';
 
 import { signIn, signOut } from '@/lib/auth'
@@ -14,9 +7,8 @@ import { hash } from 'bcryptjs'
 import { AuthError } from 'next-auth'
 import { z } from 'zod'
 
-// =============================================================================
+
 // VALIDATION SCHEMAS
-// =============================================================================
 
 const RegisterSchema = z.object({
   name: z
@@ -43,9 +35,7 @@ const LoginSchema = z.object({
   password: z.string().min(1, 'Password is required'),
 });
 
-// =============================================================================
 // TYPES
-// =============================================================================
 
 export interface ActionResult {
   success: boolean;
@@ -53,9 +43,7 @@ export interface ActionResult {
   errors?: Record<string, string[]>;
 }
 
-// =============================================================================
 // REGISTER ACTION (Minimal, SSL/ENOTFOUND muammosiz)
-// =============================================================================
 
 
 export async function registerUser(formData: {
@@ -65,7 +53,6 @@ export async function registerUser(formData: {
   confirmPassword: string;
 }): Promise<ActionResult> {
   try {
-    // Validate input
     const validationResult = RegisterSchema.safeParse(formData);
 
     if (!validationResult.success) {
@@ -118,9 +105,7 @@ export async function registerUser(formData: {
   }
 }
 
-// =============================================================================
 // LOGIN ACTION
-// =============================================================================
 
 /**
  * Log in an existing user.
@@ -146,9 +131,7 @@ export async function loginUser(formData: {
 
     const { email, password } = validationResult.data;
 
-    // Attempt to sign in with NextAuth credentials provider
-    // NOTE: NextAuth v5 with redirect:false still resolves normally on success.
-    // It throws AuthError subtypes on failure.
+    
     await signIn('credentials', {
       email,
       password,
@@ -161,8 +144,7 @@ export async function loginUser(formData: {
     };
 
   } catch (error) {
-    // NextAuth v5 throws NEXT_REDIRECT as a special non-Error object when a
-    // redirect is triggered server-side. Re-throw it so Next.js can handle it.
+    
     if (
       error != null &&
       typeof error === 'object' &&
@@ -173,7 +155,6 @@ export async function loginUser(formData: {
       throw error;
     }
 
-    // Handle specific NextAuth auth errors
     if (error instanceof AuthError) {
       switch (error.type) {
         case 'CredentialsSignin':
@@ -197,24 +178,14 @@ export async function loginUser(formData: {
   }
 }
 
-// =============================================================================
 // LOGOUT ACTION
-// =============================================================================
 
-/**
- * Log out the current user.
- */
 export async function logoutUser(): Promise<void> {
-  await signOut({ redirect: true, redirectTo: '/' });
+  await signOut({ redirect: true, redirectTo: '/register' });
 }
 
-// =============================================================================
 // GET CURRENT USER
-// =============================================================================
 
-/**
- * Get the currently authenticated user.
- */
 export async function getCurrentUser() {
   const { auth } = await import('@/lib/auth');
   const session = await auth();

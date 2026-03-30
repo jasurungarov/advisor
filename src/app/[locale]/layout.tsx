@@ -57,13 +57,13 @@ export const metadata: Metadata = {
     apple: "/ac-logo.png",
   },
 
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://advisor-omega.vercel.app"),
 
   openGraph: {
     title: "Academic Compass — Smart Academic Specialization",
     description:
       "Discover the best academic path for you using an intelligent rule-based expert system.",
-    url: "https://your-domain.com",
+    url: "https://advisor-omega.vercel.app",
     siteName: "Academic Compass",
     images: [
       {

@@ -3,9 +3,6 @@ import { getTranslations } from 'next-intl/server'
 import { Brain, Lightbulb, Shield, Target } from 'lucide-react'
 
 
-/**
- * Feature cards data
- */
 const FEATURES = [
   {
     icon: Brain,
