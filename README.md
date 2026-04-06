@@ -166,29 +166,6 @@ npm start
 
 ---
 
-## 📁 Project Structure
-
-```
-advisor-omega/
-├── app/
-│   ├── [locale]/
-│   │   ├── page.tsx          # Landing page
-│   │   ├── login/            # Authentication
-│   │   ├── register/
-│   │   └── more/             # About page
-│   ├── questionnaire/        # 15-question assessment
-│   └── api/                  # API routes
-├── components/               # Reusable UI components
-├── lib/
-│   ├── rules/                # Expert rule definitions (70+ rules)
-│   └── engine/               # Rule inference engine
-├── public/                   # Static assets
-├── messages/                 # i18n translation files
-└── types/                    # TypeScript type definitions
-```
-
----
-
 ## 🧩 Expert Rule Engine
 
 The core of Advisor is a **forward-chaining rule-based inference engine**. Rules are defined as weighted conditions:
